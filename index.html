@@ -818,7 +818,7 @@
             myMap.geoObjects.add(placemark_Ясли);
             placemarks['Ясли'] = placemark_Ясли;
     
-            var polygon_А = new ymaps.Polygon([[[53.92898, 43.175907],[53.271762, 45.02296],[53.190559, 43.99306],[53.223323, 44.915189],[53.2237, 44.890557],[53.222864, 44.926194],[53.209859, 43.036821],[53.225366, 44.988052],[53.232799, 44.939929],[53.21936, 43.033345],[53.221549, 44.968235],[53.228401, 44.939471],[53.185622, 45.04461],[53.504853, 43.665561],[53.496551, 42.621072],[53.264378, 44.909485]]], {
+            var polygon_А = new ymaps.Polygon([[[53.209859, 43.036821],[53.882269, 43.702769],[53.495298, 42.618709]]], {
                 hintContent: 'Группа А'
             }, {
                 fillColor: 'rgba(255,0,0,0.5)',
@@ -828,28 +828,6 @@
             });
             myMap.geoObjects.add(polygon_А);
             polygons['А'] = polygon_А;
-    
-            var polygon_Б = new ymaps.Polygon([[[53.215472, 44.983129],[53.174996, 44.037571],[53.219603, 44.877038],[53.196876, 45.005587],[53.132887, 45.038258],[53.535026, 43.689214],[53.198284, 45.010168],[53.220417, 44.93418]]], {
-                hintContent: 'Группа Б'
-            }, {
-                fillColor: 'rgba(0,255,0,0.5)',
-                strokeColor: 'rgba(0,255,0,0.5)',
-                opacity: 0.5,
-                strokeWidth: 2
-            });
-            myMap.geoObjects.add(polygon_Б);
-            polygons['Б'] = polygon_Б;
-    
-            var polygon_С = new ymaps.Polygon([[[53.526489, 43.678811],[53.226654, 44.876679],[53.230552, 44.920516],[53.140509, 45.038663],[53.925274, 43.187361],[53.532821, 43.652212],[53.219894, 44.932248]]], {
-                hintContent: 'Группа С'
-            }, {
-                fillColor: 'rgba(0,0,0,0.5)',
-                strokeColor: 'rgba(0,0,0,0.5)',
-                opacity: 0.5,
-                strokeWidth: 2
-            });
-            myMap.geoObjects.add(polygon_С);
-            polygons['С'] = polygon_С;
     
             window.activatePlacemark = function(name) {
                 var placemark = placemarks[name];
@@ -863,7 +841,7 @@
 </head>
 <body>
     <h1 style="text-align: center;">Евроком - Пенза</h1>
-    <h2 style="text-align: center;">Дата обновления: 2024-08-14 23:23</h2>
+    <h2 style="text-align: center;">Дата обновления: 2024-08-14 23:26</h2>
     <div id="map" style="width: 100%; height: 600px;"></div>
     <table style="width: 100%; text-align: center; margin-top: 20px; border: 1px solid black; border-collapse: collapse;">
         <thead>
