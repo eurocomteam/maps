@@ -1,0 +1,108 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Интерактивная карта Евроком</title>
+    <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU&apikey=6cf49870-4209-4422-8027-5c3518319d10" type="text/javascript"></script>
+    <script type="text/javascript">
+        ymaps.ready(init);
+
+        function init() {
+            var myMap = new ymaps.Map("map", {
+                center: [53.195873, 45.018316],
+                zoom: 10
+            });
+
+            var placemark_Пластиночник = new ymaps.Placemark([53.215596, 45.053566], {
+                balloonContent: '<strong>Пластиночник</strong><br>Номер: SMT-в00004833310<br>Критичность: Низкая<br>Направление: Здания и сооружения<br>Источник: BMC<br>Ответственный: Дмитриев Юрий Викторович<br>Выполнить до: 06.08.2024 12:26:43<br>Осталось дней: -10<br><br>Номер: SMT-в00004653011<br>Критичность: Высокая<br>Направление: Технологическое оборудование<br>Источник: Задача ГК<br>Ответственный: Зубрилин Александр Михайлович<br>Выполнить до: 30.09.2024 0:00:00<br>Осталось дней: 45'
+            }, {
+                preset: 'islands#redDotIcon'
+            });
+            myMap.geoObjects.add(placemark_Пластиночник);
+        
+            var placemark_Поезд = new ymaps.Placemark([53.212296, 43.036462], {
+                balloonContent: '<strong>Поезд</strong><br>Номер: SMT-в00004758781<br>Критичность: Средняя<br>Направление: Стеллажное оборудование<br>Источник: Задача ГК<br>Ответственный: Столяренков Андрей Геннадьевич<br>Выполнить до: 20.08.2024 0:00:00<br>Осталось дней: 4'
+            }, {
+                preset: 'islands#blueDotIcon'
+            });
+            myMap.geoObjects.add(placemark_Поезд);
+        
+            var placemark_Помело = new ymaps.Placemark([53.232584, 44.917615], {
+                balloonContent: '<strong>Помело</strong><br>Номер: SMT-в00004823672<br>Критичность: Низкая<br>Направление: Здания и сооружения<br>Источник: BMC<br>Ответственный: Баженов Василий Владимирович<br>Выполнить до: 04.08.2024 15:25:08<br>Осталось дней: -12<br><br>Номер: SMT-в00004823693<br>Критичность: Низкая<br>Направление: Электроснабжение<br>Источник: BMC<br>Ответственный: Баженов Василий Владимирович<br>Выполнить до: 04.08.2024 15:27:46<br>Осталось дней: -12<br><br>Номер: SMT-в00004807856<br>Критичность: Средняя<br>Направление: Здания и сооружения<br>Источник: BMC<br>Ответственный: Баженов Василий Владимирович<br>Выполнить до: 26.07.2024 11:13:30<br>Осталось дней: -21<br><br>Номер: SMT-в00004823710<br>Критичность: Средняя<br>Направление: Водоснабжение и водоотведение<br>Источник: BMC<br>Ответственный: Баженов Василий Владимирович<br>Выполнить до: 28.07.2024 15:29:43<br>Осталось дней: -19<br><br>Номер: SMT-в00004819223<br>Критичность: Средняя<br>Направление: Здания и сооружения<br>Источник: BMC<br>Ответственный: Баженов Василий Владимирович<br>Выполнить до: 28.07.2024 7:03:11<br>Осталось дней: -19<br><br>Номер: SMT-в00004795769<br>Критичность: Низкая<br>Направление: Электроснабжение<br>Источник: BMC<br>Ответственный: Баженов Василий Владимирович<br>Выполнить до: 31.07.2024 14:51:49<br>Осталось дней: -16'
+            }, {
+                preset: 'islands#redDotIcon'
+            });
+            myMap.geoObjects.add(placemark_Помело);
+        
+            var placemark_Помолвленный = new ymaps.Placemark([53.210829, 44.980353], {
+                balloonContent: '<strong>Помолвленный</strong><br>Номер: SMT-в00004830892<br>Критичность: Средняя<br>Направление: Здания и сооружения<br>Источник: BMC<br>Ответственный: Столяренков Андрей Геннадьевич<br>Выполнить до: 29.07.2024 17:38:06<br>Осталось дней: -18'
+            }, {
+                preset: 'islands#redDotIcon'
+            });
+            myMap.geoObjects.add(placemark_Помолвленный);
+        
+            var placemark_Прокат = new ymaps.Placemark([53.195306, 43.984607], {
+                balloonContent: '<strong>Прокат</strong><br>Номер: SMT-в00004815964<br>Критичность: Низкая<br>Направление: Здания и сооружения<br>Источник: BMC<br>Ответственный: Столяренков Андрей Геннадьевич<br>Выполнить до: 03.08.2024 13:31:31<br>Осталось дней: -13<br><br>Номер: SMT-в00004653072<br>Критичность: Высокая<br>Направление: Технологическое оборудование<br>Источник: Задача ГК<br>Ответственный: Зубрилин Александр Михайлович<br>Выполнить до: 30.09.2024 0:00:00<br>Осталось дней: 45'
+            }, {
+                preset: 'islands#redDotIcon'
+            });
+            myMap.geoObjects.add(placemark_Прокат);
+        
+            var placemark_Пунктуация = new ymaps.Placemark([53.431934, 44.597518], {
+                balloonContent: '<strong>Пунктуация</strong><br>Номер: SMT-в00004804054<br>Критичность: Низкая<br>Направление: Здания и сооружения<br>Источник: BMC<br>Ответственный: Столяренков Андрей Геннадьевич<br>Выполнить до: 01.08.2024 17:09:18<br>Осталось дней: -15<br><br>Номер: SMT-в00004758800<br>Критичность: Средняя<br>Направление: Стеллажное оборудование<br>Источник: Задача ГК<br>Ответственный: Столяренков Андрей Геннадьевич<br>Выполнить до: 20.08.2024 0:00:00<br>Осталось дней: 4'
+            }, {
+                preset: 'islands#redDotIcon'
+            });
+            myMap.geoObjects.add(placemark_Пунктуация);
+        
+            var placemark_Пушанин = new ymaps.Placemark([52.965191, 43.419018], {
+                balloonContent: '<strong>Пушанин</strong><br>Номер: SMT-в00004809508<br>Критичность: Низкая<br>Направление: Здания и сооружения<br>Источник: BMC<br>Ответственный: Столяренков Андрей Геннадьевич<br>Выполнить до: 02.08.2024 13:48:57<br>Осталось дней: -14'
+            }, {
+                preset: 'islands#redDotIcon'
+            });
+            myMap.geoObjects.add(placemark_Пушанин);
+        
+        }
+    </script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        h1, h2 {
+            text-align: center;
+        }
+        #map {
+            width: 100%;
+            height: 600px;
+            margin: 0 auto;
+        }
+        .button-group {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .button-group a {
+            padding: 10px;
+            font-size: 16px;
+            margin: 5px;
+            background-color: lightgray;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Евроком - Пенза</h1>
+    <h2>Дата обновления: 2024-08-16 11:27</h2>
+
+    <div class="button-group">
+        <a href="index.html">Все метки</a>
+        <a href="group_A.html">Группа А</a>
+        <a href="group_B.html">Группа Б</a>
+        <a href="group_C.html">Группа С</a>
+    </div>
+
+    <div id="map"></div>
+</body>
+</html>
