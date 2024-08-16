@@ -202,6 +202,9 @@
         .button-group {
             text-align: center;
             margin-bottom: 20px;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
         }
         .button-group a {
             padding: 10px;
@@ -210,11 +213,16 @@
             background-color: lightgray;
             text-decoration: none;
             border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        .button-group a:hover {
+            background-color: #ddd;
         }
         table {
             margin: 0 auto;
             border-collapse: collapse;
-            width: 80%;
+            width: 100%;
+            overflow-x: auto;
         }
         th, td {
             text-align: center;
@@ -224,11 +232,28 @@
         th {
             background-color: #f2f2f2;
         }
+        /* Медиазапросы для мобильных устройств */
+        @media (max-width: 768px) {
+            .button-group {
+                flex-direction: column;
+                align-items: center;
+            }
+            table {
+                width: 100%;
+                display: block;
+                overflow-x: auto;
+                white-space: nowrap;
+            }
+            th, td {
+                font-size: 14px;
+                padding: 6px;
+            }
+        }
     </style>
 </head>
 <body>
     <h1>Группа Б</h1>
-    <h2>Дата обновления: 2024-08-16 12:03</h2>
+    <h2>Дата обновления: 2024-08-16 12:14</h2>
     <div class="button-group">
         <a href="index.html">Все метки</a>
         <a href="group_A.html">Группа А</a>
