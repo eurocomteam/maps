@@ -15,12 +15,15 @@
                 zoom: 10
             });
 
+            var placemarks = {};
+
             var placemark_Пластиночник = new ymaps.Placemark([53.215596, 45.053566], {
                 balloonContent: '<strong>Пластиночник</strong><br>Номер: SMT-в00004833310<br>Критичность: Низкая<br>Направление: Здания и сооружения<br>Источник: BMC<br>Ответственный: Дмитриев Юрий Викторович<br>Выполнить до: 06.08.2024 12:26:43<br>Осталось дней: -10<br><br>Номер: SMT-в00004653011<br>Критичность: Высокая<br>Направление: Технологическое оборудование<br>Источник: Задача ГК<br>Ответственный: Зубрилин Александр Михайлович<br>Выполнить до: 30.09.2024 0:00:00<br>Осталось дней: 45'
             }, {
                 preset: 'islands#redDotIcon'
             });
             myMap.geoObjects.add(placemark_Пластиночник);
+            placemarks['Пластиночник'] = placemark_Пластиночник;
         
             var placemark_Поезд = new ymaps.Placemark([53.212296, 43.036462], {
                 balloonContent: '<strong>Поезд</strong><br>Номер: SMT-в00004758781<br>Критичность: Средняя<br>Направление: Стеллажное оборудование<br>Источник: Задача ГК<br>Ответственный: Столяренков Андрей Геннадьевич<br>Выполнить до: 20.08.2024 0:00:00<br>Осталось дней: 4'
@@ -28,6 +31,7 @@
                 preset: 'islands#blueDotIcon'
             });
             myMap.geoObjects.add(placemark_Поезд);
+            placemarks['Поезд'] = placemark_Поезд;
         
             var placemark_Помело = new ymaps.Placemark([53.232584, 44.917615], {
                 balloonContent: '<strong>Помело</strong><br>Номер: SMT-в00004823672<br>Критичность: Низкая<br>Направление: Здания и сооружения<br>Источник: BMC<br>Ответственный: Баженов Василий Владимирович<br>Выполнить до: 04.08.2024 15:25:08<br>Осталось дней: -12<br><br>Номер: SMT-в00004823693<br>Критичность: Низкая<br>Направление: Электроснабжение<br>Источник: BMC<br>Ответственный: Баженов Василий Владимирович<br>Выполнить до: 04.08.2024 15:27:46<br>Осталось дней: -12<br><br>Номер: SMT-в00004807856<br>Критичность: Средняя<br>Направление: Здания и сооружения<br>Источник: BMC<br>Ответственный: Баженов Василий Владимирович<br>Выполнить до: 26.07.2024 11:13:30<br>Осталось дней: -21<br><br>Номер: SMT-в00004823710<br>Критичность: Средняя<br>Направление: Водоснабжение и водоотведение<br>Источник: BMC<br>Ответственный: Баженов Василий Владимирович<br>Выполнить до: 28.07.2024 15:29:43<br>Осталось дней: -19<br><br>Номер: SMT-в00004819223<br>Критичность: Средняя<br>Направление: Здания и сооружения<br>Источник: BMC<br>Ответственный: Баженов Василий Владимирович<br>Выполнить до: 28.07.2024 7:03:11<br>Осталось дней: -19<br><br>Номер: SMT-в00004795769<br>Критичность: Низкая<br>Направление: Электроснабжение<br>Источник: BMC<br>Ответственный: Баженов Василий Владимирович<br>Выполнить до: 31.07.2024 14:51:49<br>Осталось дней: -16'
@@ -35,6 +39,7 @@
                 preset: 'islands#redDotIcon'
             });
             myMap.geoObjects.add(placemark_Помело);
+            placemarks['Помело'] = placemark_Помело;
         
             var placemark_Помолвленный = new ymaps.Placemark([53.210829, 44.980353], {
                 balloonContent: '<strong>Помолвленный</strong><br>Номер: SMT-в00004830892<br>Критичность: Средняя<br>Направление: Здания и сооружения<br>Источник: BMC<br>Ответственный: Столяренков Андрей Геннадьевич<br>Выполнить до: 29.07.2024 17:38:06<br>Осталось дней: -18'
@@ -42,6 +47,7 @@
                 preset: 'islands#redDotIcon'
             });
             myMap.geoObjects.add(placemark_Помолвленный);
+            placemarks['Помолвленный'] = placemark_Помолвленный;
         
             var placemark_Прокат = new ymaps.Placemark([53.195306, 43.984607], {
                 balloonContent: '<strong>Прокат</strong><br>Номер: SMT-в00004815964<br>Критичность: Низкая<br>Направление: Здания и сооружения<br>Источник: BMC<br>Ответственный: Столяренков Андрей Геннадьевич<br>Выполнить до: 03.08.2024 13:31:31<br>Осталось дней: -13<br><br>Номер: SMT-в00004653072<br>Критичность: Высокая<br>Направление: Технологическое оборудование<br>Источник: Задача ГК<br>Ответственный: Зубрилин Александр Михайлович<br>Выполнить до: 30.09.2024 0:00:00<br>Осталось дней: 45'
@@ -49,6 +55,7 @@
                 preset: 'islands#redDotIcon'
             });
             myMap.geoObjects.add(placemark_Прокат);
+            placemarks['Прокат'] = placemark_Прокат;
         
             var placemark_Пунктуация = new ymaps.Placemark([53.431934, 44.597518], {
                 balloonContent: '<strong>Пунктуация</strong><br>Номер: SMT-в00004804054<br>Критичность: Низкая<br>Направление: Здания и сооружения<br>Источник: BMC<br>Ответственный: Столяренков Андрей Геннадьевич<br>Выполнить до: 01.08.2024 17:09:18<br>Осталось дней: -15<br><br>Номер: SMT-в00004758800<br>Критичность: Средняя<br>Направление: Стеллажное оборудование<br>Источник: Задача ГК<br>Ответственный: Столяренков Андрей Геннадьевич<br>Выполнить до: 20.08.2024 0:00:00<br>Осталось дней: 4'
@@ -56,6 +63,7 @@
                 preset: 'islands#redDotIcon'
             });
             myMap.geoObjects.add(placemark_Пунктуация);
+            placemarks['Пунктуация'] = placemark_Пунктуация;
         
             var placemark_Пушанин = new ymaps.Placemark([52.965191, 43.419018], {
                 balloonContent: '<strong>Пушанин</strong><br>Номер: SMT-в00004809508<br>Критичность: Низкая<br>Направление: Здания и сооружения<br>Источник: BMC<br>Ответственный: Столяренков Андрей Геннадьевич<br>Выполнить до: 02.08.2024 13:48:57<br>Осталось дней: -14'
@@ -63,7 +71,16 @@
                 preset: 'islands#redDotIcon'
             });
             myMap.geoObjects.add(placemark_Пушанин);
+            placemarks['Пушанин'] = placemark_Пушанин;
         
+            window.activatePlacemark = function(shopName) {
+                var placemark = placemarks[shopName];
+                if (placemark) {
+                    myMap.setCenter(placemark.geometry.getCoordinates(), 15);
+                    placemark.balloon.open();
+                    window.scrollTo(0, 0);
+                }
+            }
         }
     </script>
     <style>
@@ -90,19 +107,214 @@
             text-decoration: none;
             border-radius: 5px;
         }
+        table {
+            margin: 0 auto;
+            border-collapse: collapse;
+            width: 80%;
+        }
+        th, td {
+            text-align: center;
+            padding: 8px;
+            border: 1px solid #ddd;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
     </style>
 </head>
 <body>
-    <h1>Евроком - Пенза</h1>
-    <h2>Дата обновления: 2024-08-16 11:27</h2>
-
+    <h1>Группа С</h1>
+    <h2>Дата обновления: 2024-08-16 11:30</h2>
     <div class="button-group">
         <a href="index.html">Все метки</a>
         <a href="group_A.html">Группа А</a>
         <a href="group_B.html">Группа Б</a>
         <a href="group_C.html">Группа С</a>
     </div>
-
     <div id="map"></div>
+
+    <h2>Список заявок по магазинам:</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Магазин</th>
+                <th>Номер заявки</th>
+                <th>Критичность</th>
+                <th>Направление</th>
+                <th>Источник</th>
+                <th>Ответственный</th>
+                <th>Выполнить до</th>
+                <th>Осталось дней</th>
+            </tr>
+        </thead>
+        <tbody>
+
+                    <tr>
+                        <td><a href="javascript:void(0);" onclick="activatePlacemark('Пластиночник')">Пластиночник</a></td>
+                        <td>SMT-в00004833310</td>
+                        <td>Низкая</td>
+                        <td>Здания и сооружения</td>
+                        <td>BMC</td>
+                        <td>Дмитриев Юрий Викторович</td>
+                        <td>06.08.2024 12:26:43</td>
+                        <td>-10</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="javascript:void(0);" onclick="activatePlacemark('Пластиночник')">Пластиночник</a></td>
+                        <td>SMT-в00004653011</td>
+                        <td>Высокая</td>
+                        <td>Технологическое оборудование</td>
+                        <td>Задача ГК</td>
+                        <td>Зубрилин Александр Михайлович</td>
+                        <td>30.09.2024 0:00:00</td>
+                        <td>45</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="javascript:void(0);" onclick="activatePlacemark('Поезд')">Поезд</a></td>
+                        <td>SMT-в00004758781</td>
+                        <td>Средняя</td>
+                        <td>Стеллажное оборудование</td>
+                        <td>Задача ГК</td>
+                        <td>Столяренков Андрей Геннадьевич</td>
+                        <td>20.08.2024 0:00:00</td>
+                        <td>4</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="javascript:void(0);" onclick="activatePlacemark('Помело')">Помело</a></td>
+                        <td>SMT-в00004807856</td>
+                        <td>Средняя</td>
+                        <td>Здания и сооружения</td>
+                        <td>BMC</td>
+                        <td>Баженов Василий Владимирович</td>
+                        <td>26.07.2024 11:13:30</td>
+                        <td>-21</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="javascript:void(0);" onclick="activatePlacemark('Помело')">Помело</a></td>
+                        <td>SMT-в00004819223</td>
+                        <td>Средняя</td>
+                        <td>Здания и сооружения</td>
+                        <td>BMC</td>
+                        <td>Баженов Василий Владимирович</td>
+                        <td>28.07.2024 7:03:11</td>
+                        <td>-19</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="javascript:void(0);" onclick="activatePlacemark('Помело')">Помело</a></td>
+                        <td>SMT-в00004823710</td>
+                        <td>Средняя</td>
+                        <td>Водоснабжение и водоотведение</td>
+                        <td>BMC</td>
+                        <td>Баженов Василий Владимирович</td>
+                        <td>28.07.2024 15:29:43</td>
+                        <td>-19</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="javascript:void(0);" onclick="activatePlacemark('Помело')">Помело</a></td>
+                        <td>SMT-в00004795769</td>
+                        <td>Низкая</td>
+                        <td>Электроснабжение</td>
+                        <td>BMC</td>
+                        <td>Баженов Василий Владимирович</td>
+                        <td>31.07.2024 14:51:49</td>
+                        <td>-16</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="javascript:void(0);" onclick="activatePlacemark('Помело')">Помело</a></td>
+                        <td>SMT-в00004823672</td>
+                        <td>Низкая</td>
+                        <td>Здания и сооружения</td>
+                        <td>BMC</td>
+                        <td>Баженов Василий Владимирович</td>
+                        <td>04.08.2024 15:25:08</td>
+                        <td>-12</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="javascript:void(0);" onclick="activatePlacemark('Помело')">Помело</a></td>
+                        <td>SMT-в00004823693</td>
+                        <td>Низкая</td>
+                        <td>Электроснабжение</td>
+                        <td>BMC</td>
+                        <td>Баженов Василий Владимирович</td>
+                        <td>04.08.2024 15:27:46</td>
+                        <td>-12</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="javascript:void(0);" onclick="activatePlacemark('Помолвленный')">Помолвленный</a></td>
+                        <td>SMT-в00004830892</td>
+                        <td>Средняя</td>
+                        <td>Здания и сооружения</td>
+                        <td>BMC</td>
+                        <td>Столяренков Андрей Геннадьевич</td>
+                        <td>29.07.2024 17:38:06</td>
+                        <td>-18</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="javascript:void(0);" onclick="activatePlacemark('Прокат')">Прокат</a></td>
+                        <td>SMT-в00004815964</td>
+                        <td>Низкая</td>
+                        <td>Здания и сооружения</td>
+                        <td>BMC</td>
+                        <td>Столяренков Андрей Геннадьевич</td>
+                        <td>03.08.2024 13:31:31</td>
+                        <td>-13</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="javascript:void(0);" onclick="activatePlacemark('Прокат')">Прокат</a></td>
+                        <td>SMT-в00004653072</td>
+                        <td>Высокая</td>
+                        <td>Технологическое оборудование</td>
+                        <td>Задача ГК</td>
+                        <td>Зубрилин Александр Михайлович</td>
+                        <td>30.09.2024 0:00:00</td>
+                        <td>45</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="javascript:void(0);" onclick="activatePlacemark('Пунктуация')">Пунктуация</a></td>
+                        <td>SMT-в00004804054</td>
+                        <td>Низкая</td>
+                        <td>Здания и сооружения</td>
+                        <td>BMC</td>
+                        <td>Столяренков Андрей Геннадьевич</td>
+                        <td>01.08.2024 17:09:18</td>
+                        <td>-15</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="javascript:void(0);" onclick="activatePlacemark('Пунктуация')">Пунктуация</a></td>
+                        <td>SMT-в00004758800</td>
+                        <td>Средняя</td>
+                        <td>Стеллажное оборудование</td>
+                        <td>Задача ГК</td>
+                        <td>Столяренков Андрей Геннадьевич</td>
+                        <td>20.08.2024 0:00:00</td>
+                        <td>4</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="javascript:void(0);" onclick="activatePlacemark('Пушанин')">Пушанин</a></td>
+                        <td>SMT-в00004809508</td>
+                        <td>Низкая</td>
+                        <td>Здания и сооружения</td>
+                        <td>BMC</td>
+                        <td>Столяренков Андрей Геннадьевич</td>
+                        <td>02.08.2024 13:48:57</td>
+                        <td>-14</td>
+                    </tr>
+                
+        </tbody>
+    </table>
 </body>
 </html>
