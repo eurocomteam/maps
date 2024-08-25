@@ -16,6 +16,7 @@
             });
 
             var placemarks = {};
+            var allPlacemarks = [];
 
             var placemark_Абашево = new ymaps.Placemark([53.92898, 43.175907], {
                 balloonContent: '<strong>Абашево</strong><br>Номер: SMT-в00004758460<br>Выполнить до: 13.09.2024 0:00:00<br>Осталось дней: 19<br><br>Номер: SMT-в00004885161<br>Выполнить до: 15.08.2024 10:57:09<br>Осталось дней: -10<br><br>Номер: SMT-в00004926834<br>Выполнить до: 30.08.2024 0:00:00<br>Осталось дней: 5<br><br>Номер: SMT-в00004652357<br>Выполнить до: 30.09.2024 0:00:00<br>Осталось дней: 36'
@@ -26,6 +27,7 @@
                 placemark: placemark_Абашево,
                 responsible: 'Пивкин_Кошкин'
             };
+            allPlacemarks.push(placemark_Абашево);
             myMap.geoObjects.add(placemark_Абашево);
         
             var placemark_Алабама = new ymaps.Placemark([53.190559, 43.99306], {
@@ -37,6 +39,7 @@
                 placemark: placemark_Алабама,
                 responsible: 'Кисловский'
             };
+            allPlacemarks.push(placemark_Алабама);
             myMap.geoObjects.add(placemark_Алабама);
         
             var placemark_Арбеково = new ymaps.Placemark([53.2237, 44.890557], {
@@ -48,6 +51,7 @@
                 placemark: placemark_Арбеково,
                 responsible: 'Демин'
             };
+            allPlacemarks.push(placemark_Арбеково);
             myMap.geoObjects.add(placemark_Арбеково);
         
             var placemark_Бартал = new ymaps.Placemark([53.222864, 44.926194], {
@@ -59,6 +63,7 @@
                 placemark: placemark_Бартал,
                 responsible: 'Аверьянов'
             };
+            allPlacemarks.push(placemark_Бартал);
             myMap.geoObjects.add(placemark_Бартал);
         
             var placemark_Башмаково = new ymaps.Placemark([53.209859, 43.036821], {
@@ -70,6 +75,7 @@
                 placemark: placemark_Башмаково,
                 responsible: 'Пивкин_Кошкин'
             };
+            allPlacemarks.push(placemark_Башмаково);
             myMap.geoObjects.add(placemark_Башмаково);
         
             var placemark_Беляевский = new ymaps.Placemark([53.225366, 44.988052], {
@@ -81,6 +87,7 @@
                 placemark: placemark_Беляевский,
                 responsible: 'Фадеев'
             };
+            allPlacemarks.push(placemark_Беляевский);
             myMap.geoObjects.add(placemark_Беляевский);
         
             var placemark_Бесподобный = new ymaps.Placemark([53.232799, 44.939929], {
@@ -92,6 +99,7 @@
                 placemark: placemark_Бесподобный,
                 responsible: 'Демин'
             };
+            allPlacemarks.push(placemark_Бесподобный);
             myMap.geoObjects.add(placemark_Бесподобный);
         
             var placemark_Близкий = new ymaps.Placemark([53.21936, 43.033345], {
@@ -103,6 +111,7 @@
                 placemark: placemark_Близкий,
                 responsible: 'Пивкин_Кошкин'
             };
+            allPlacemarks.push(placemark_Близкий);
             myMap.geoObjects.add(placemark_Близкий);
         
             var placemark_Болотоход = new ymaps.Placemark([53.221581, 44.966564], {
@@ -114,6 +123,7 @@
                 placemark: placemark_Болотоход,
                 responsible: 'Фадеев'
             };
+            allPlacemarks.push(placemark_Болотоход);
             myMap.geoObjects.add(placemark_Болотоход);
         
             var placemark_Брага = new ymaps.Placemark([53.228401, 44.939471], {
@@ -125,6 +135,7 @@
                 placemark: placemark_Брага,
                 responsible: 'Фадеев'
             };
+            allPlacemarks.push(placemark_Брага);
             myMap.geoObjects.add(placemark_Брага);
         
             var placemark_Братское = new ymaps.Placemark([53.185622, 45.04461], {
@@ -136,6 +147,7 @@
                 placemark: placemark_Братское,
                 responsible: 'Фадеев'
             };
+            allPlacemarks.push(placemark_Братское);
             myMap.geoObjects.add(placemark_Братское);
         
             var placemark_Бриф = new ymaps.Placemark([53.496551, 42.621072], {
@@ -147,6 +159,7 @@
                 placemark: placemark_Бриф,
                 responsible: 'Пивкин_Кошкин'
             };
+            allPlacemarks.push(placemark_Бриф);
             myMap.geoObjects.add(placemark_Бриф);
         
             var placemark_Бубнова = new ymaps.Placemark([53.264378, 44.909485], {
@@ -158,6 +171,7 @@
                 placemark: placemark_Бубнова,
                 responsible: 'Демин'
             };
+            allPlacemarks.push(placemark_Бубнова);
             myMap.geoObjects.add(placemark_Бубнова);
         
             var placemark_Ватрушка = new ymaps.Placemark([53.174996, 44.037571], {
@@ -169,6 +183,7 @@
                 placemark: placemark_Ватрушка,
                 responsible: 'Кисловский'
             };
+            allPlacemarks.push(placemark_Ватрушка);
             myMap.geoObjects.add(placemark_Ватрушка);
         
             var placemark_Версаль = new ymaps.Placemark([53.219603, 44.877038], {
@@ -180,6 +195,7 @@
                 placemark: placemark_Версаль,
                 responsible: 'Демин'
             };
+            allPlacemarks.push(placemark_Версаль);
             myMap.geoObjects.add(placemark_Версаль);
         
             var placemark_Вильда = new ymaps.Placemark([53.132887, 45.038258], {
@@ -191,6 +207,7 @@
                 placemark: placemark_Вильда,
                 responsible: 'Аверьянов'
             };
+            allPlacemarks.push(placemark_Вильда);
             myMap.geoObjects.add(placemark_Вильда);
         
             var placemark_Влад = new ymaps.Placemark([53.220417, 44.93418], {
@@ -202,6 +219,7 @@
                 placemark: placemark_Влад,
                 responsible: 'Аверьянов'
             };
+            allPlacemarks.push(placemark_Влад);
             myMap.geoObjects.add(placemark_Влад);
         
             var placemark_Вольдо = new ymaps.Placemark([53.226654, 44.876679], {
@@ -213,6 +231,7 @@
                 placemark: placemark_Вольдо,
                 responsible: 'Демин'
             };
+            allPlacemarks.push(placemark_Вольдо);
             myMap.geoObjects.add(placemark_Вольдо);
         
             var placemark_Герса = new ymaps.Placemark([53.925274, 43.187361], {
@@ -224,6 +243,7 @@
                 placemark: placemark_Герса,
                 responsible: 'Пивкин_Кошкин'
             };
+            allPlacemarks.push(placemark_Герса);
             myMap.geoObjects.add(placemark_Герса);
         
             var placemark_Глазуновский = new ymaps.Placemark([53.219894, 44.932248], {
@@ -235,6 +255,7 @@
                 placemark: placemark_Глазуновский,
                 responsible: 'Аверьянов'
             };
+            allPlacemarks.push(placemark_Глазуновский);
             myMap.geoObjects.add(placemark_Глазуновский);
         
             var placemark_Глыбистость = new ymaps.Placemark([53.587002, 44.334069], {
@@ -246,6 +267,7 @@
                 placemark: placemark_Глыбистость,
                 responsible: 'Пивкин_Кошкин'
             };
+            allPlacemarks.push(placemark_Глыбистость);
             myMap.geoObjects.add(placemark_Глыбистость);
         
             var placemark_Десерт = new ymaps.Placemark([53.215472, 44.983129], {
@@ -257,6 +279,7 @@
                 placemark: placemark_Десерт,
                 responsible: 'Фадеев'
             };
+            allPlacemarks.push(placemark_Десерт);
             myMap.geoObjects.add(placemark_Десерт);
         
             var placemark_Дискретизация = new ymaps.Placemark([53.216664, 44.979697], {
@@ -268,6 +291,7 @@
                 placemark: placemark_Дискретизация,
                 responsible: 'Фадеев'
             };
+            allPlacemarks.push(placemark_Дискретизация);
             myMap.geoObjects.add(placemark_Дискретизация);
         
             var placemark_Довер = new ymaps.Placemark([53.232654, 44.887386], {
@@ -279,6 +303,7 @@
                 placemark: placemark_Довер,
                 responsible: 'Демин'
             };
+            allPlacemarks.push(placemark_Довер);
             myMap.geoObjects.add(placemark_Довер);
         
             var placemark_Дубовиково = new ymaps.Placemark([53.234513, 44.899047], {
@@ -290,6 +315,7 @@
                 placemark: placemark_Дубовиково,
                 responsible: 'Демин'
             };
+            allPlacemarks.push(placemark_Дубовиково);
             myMap.geoObjects.add(placemark_Дубовиково);
         
             var placemark_Завлекательный = new ymaps.Placemark([53.229139, 44.916887], {
@@ -301,6 +327,7 @@
                 placemark: placemark_Завлекательный,
                 responsible: 'Демин'
             };
+            allPlacemarks.push(placemark_Завлекательный);
             myMap.geoObjects.add(placemark_Завлекательный);
         
             var placemark_Златоцвет = new ymaps.Placemark([53.186215, 44.963087], {
@@ -312,6 +339,7 @@
                 placemark: placemark_Златоцвет,
                 responsible: 'Аверьянов'
             };
+            allPlacemarks.push(placemark_Златоцвет);
             myMap.geoObjects.add(placemark_Златоцвет);
         
             var placemark_Ижа = new ymaps.Placemark([53.198284, 45.010168], {
@@ -323,6 +351,7 @@
                 placemark: placemark_Ижа,
                 responsible: 'Фадеев'
             };
+            allPlacemarks.push(placemark_Ижа);
             myMap.geoObjects.add(placemark_Ижа);
         
             var placemark_Имиджсеттер = new ymaps.Placemark([53.875974, 43.689672], {
@@ -334,6 +363,7 @@
                 placemark: placemark_Имиджсеттер,
                 responsible: 'Пивкин_Кошкин'
             };
+            allPlacemarks.push(placemark_Имиджсеттер);
             myMap.geoObjects.add(placemark_Имиджсеттер);
         
             var placemark_Иностранка = new ymaps.Placemark([53.189917, 45.057123], {
@@ -345,6 +375,7 @@
                 placemark: placemark_Иностранка,
                 responsible: 'Фадеев'
             };
+            allPlacemarks.push(placemark_Иностранка);
             myMap.geoObjects.add(placemark_Иностранка);
         
             var placemark_Каража = new ymaps.Placemark([53.223506, 44.878376], {
@@ -356,6 +387,7 @@
                 placemark: placemark_Каража,
                 responsible: 'Демин'
             };
+            allPlacemarks.push(placemark_Каража);
             myMap.geoObjects.add(placemark_Каража);
         
             var placemark_Кварса = new ymaps.Placemark([53.185622, 45.04461], {
@@ -367,6 +399,7 @@
                 placemark: placemark_Кварса,
                 responsible: 'Фадеев'
             };
+            allPlacemarks.push(placemark_Кварса);
             myMap.geoObjects.add(placemark_Кварса);
         
             var placemark_Кентан = new ymaps.Placemark([53.221694, 44.92667], {
@@ -378,6 +411,7 @@
                 placemark: placemark_Кентан,
                 responsible: 'Аверьянов'
             };
+            allPlacemarks.push(placemark_Кентан);
             myMap.geoObjects.add(placemark_Кентан);
         
             var placemark_Клатч = new ymaps.Placemark([53.2237, 44.890557], {
@@ -389,6 +423,7 @@
                 placemark: placemark_Клатч,
                 responsible: 'Демин'
             };
+            allPlacemarks.push(placemark_Клатч);
             myMap.geoObjects.add(placemark_Клатч);
         
             var placemark_Клинкерование = new ymaps.Placemark([53.18124, 45.058093], {
@@ -400,6 +435,7 @@
                 placemark: placemark_Клинкерование,
                 responsible: 'Фадеев'
             };
+            allPlacemarks.push(placemark_Клинкерование);
             myMap.geoObjects.add(placemark_Клинкерование);
         
             var placemark_Клируотер = new ymaps.Placemark([53.19953, 45.154653], {
@@ -411,6 +447,7 @@
                 placemark: placemark_Клируотер,
                 responsible: 'Князев'
             };
+            allPlacemarks.push(placemark_Клируотер);
             myMap.geoObjects.add(placemark_Клируотер);
         
             var placemark_Козиевка = new ymaps.Placemark([53.218465, 44.998975], {
@@ -422,6 +459,7 @@
                 placemark: placemark_Козиевка,
                 responsible: 'Фадеев'
             };
+            allPlacemarks.push(placemark_Козиевка);
             myMap.geoObjects.add(placemark_Козиевка);
         
             var placemark_Кондиционер = new ymaps.Placemark([53.184451, 45.067535], {
@@ -433,6 +471,7 @@
                 placemark: placemark_Кондиционер,
                 responsible: 'Фадеев'
             };
+            allPlacemarks.push(placemark_Кондиционер);
             myMap.geoObjects.add(placemark_Кондиционер);
         
             var placemark_Копировщик = new ymaps.Placemark([53.138651, 45.040136], {
@@ -444,6 +483,7 @@
                 placemark: placemark_Копировщик,
                 responsible: 'Аверьянов'
             };
+            allPlacemarks.push(placemark_Копировщик);
             myMap.geoObjects.add(placemark_Копировщик);
         
             var placemark_Красноозерное = new ymaps.Placemark([53.139499, 45.045005], {
@@ -455,6 +495,7 @@
                 placemark: placemark_Красноозерное,
                 responsible: 'Аверьянов'
             };
+            allPlacemarks.push(placemark_Красноозерное);
             myMap.geoObjects.add(placemark_Красноозерное);
         
             var placemark_Кровелец = new ymaps.Placemark([53.128294, 45.032357], {
@@ -466,6 +507,7 @@
                 placemark: placemark_Кровелец,
                 responsible: 'Аверьянов'
             };
+            allPlacemarks.push(placemark_Кровелец);
             myMap.geoObjects.add(placemark_Кровелец);
         
             var placemark_Куассоло = new ymaps.Placemark([53.243432, 45.015531], {
@@ -477,6 +519,7 @@
                 placemark: placemark_Куассоло,
                 responsible: 'Фадеев'
             };
+            allPlacemarks.push(placemark_Куассоло);
             myMap.geoObjects.add(placemark_Куассоло);
         
             var placemark_Кувака = new ymaps.Placemark([53.178121, 44.028831], {
@@ -488,6 +531,7 @@
                 placemark: placemark_Кувака,
                 responsible: 'Кисловский'
             };
+            allPlacemarks.push(placemark_Кувака);
             myMap.geoObjects.add(placemark_Кувака);
         
             var placemark_Кундудо = new ymaps.Placemark([53.226094, 44.931781], {
@@ -499,6 +543,7 @@
                 placemark: placemark_Кундудо,
                 responsible: 'Демин'
             };
+            allPlacemarks.push(placemark_Кундудо);
             myMap.geoObjects.add(placemark_Кундудо);
         
             var placemark_Ламбада = new ymaps.Placemark([53.223323, 44.915189], {
@@ -510,6 +555,7 @@
                 placemark: placemark_Ламбада,
                 responsible: 'Аверьянов'
             };
+            allPlacemarks.push(placemark_Ламбада);
             myMap.geoObjects.add(placemark_Ламбада);
         
             var placemark_Леро = new ymaps.Placemark([53.43902, 44.610705], {
@@ -521,6 +567,7 @@
                 placemark: placemark_Леро,
                 responsible: 'Демин'
             };
+            allPlacemarks.push(placemark_Леро);
             myMap.geoObjects.add(placemark_Леро);
         
             var placemark_Лобановская = new ymaps.Placemark([53.133875, 45.041762], {
@@ -532,6 +579,7 @@
                 placemark: placemark_Лобановская,
                 responsible: 'Аверьянов'
             };
+            allPlacemarks.push(placemark_Лобановская);
             myMap.geoObjects.add(placemark_Лобановская);
         
             var placemark_Марлин = new ymaps.Placemark([53.228244, 44.93382], {
@@ -543,6 +591,7 @@
                 placemark: placemark_Марлин,
                 responsible: 'Демин'
             };
+            allPlacemarks.push(placemark_Марлин);
             myMap.geoObjects.add(placemark_Марлин);
         
             var placemark_Медисовка = new ymaps.Placemark([53.231538, 44.888896], {
@@ -554,6 +603,7 @@
                 placemark: placemark_Медисовка,
                 responsible: 'Демин'
             };
+            allPlacemarks.push(placemark_Медисовка);
             myMap.geoObjects.add(placemark_Медисовка);
         
             var placemark_Молсон = new ymaps.Placemark([53.531264, 43.671517], {
@@ -565,6 +615,7 @@
                 placemark: placemark_Молсон,
                 responsible: 'Пивкин_Кошкин'
             };
+            allPlacemarks.push(placemark_Молсон);
             myMap.geoObjects.add(placemark_Молсон);
         
             var placemark_Мурашкино = new ymaps.Placemark([53.234152, 44.876041], {
@@ -576,6 +627,7 @@
                 placemark: placemark_Мурашкино,
                 responsible: 'Демин'
             };
+            allPlacemarks.push(placemark_Мурашкино);
             myMap.geoObjects.add(placemark_Мурашкино);
         
             var placemark_Найденыш = new ymaps.Placemark([53.234152, 44.876041], {
@@ -587,6 +639,7 @@
                 placemark: placemark_Найденыш,
                 responsible: 'Демин'
             };
+            allPlacemarks.push(placemark_Найденыш);
             myMap.geoObjects.add(placemark_Найденыш);
         
             var placemark_Невесомость = new ymaps.Placemark([53.197286, 43.977725], {
@@ -598,6 +651,7 @@
                 placemark: placemark_Невесомость,
                 responsible: 'Кисловский'
             };
+            allPlacemarks.push(placemark_Невесомость);
             myMap.geoObjects.add(placemark_Невесомость);
         
             var placemark_Нижний_Ломов = new ymaps.Placemark([53.52847, 43.680922], {
@@ -609,6 +663,7 @@
                 placemark: placemark_Нижний_Ломов,
                 responsible: 'Пивкин_Кошкин'
             };
+            allPlacemarks.push(placemark_Нижний_Ломов);
             myMap.geoObjects.add(placemark_Нижний_Ломов);
         
             var placemark_Облагание = new ymaps.Placemark([53.189738, 44.982293], {
@@ -620,6 +675,7 @@
                 placemark: placemark_Облагание,
                 responsible: 'Аверьянов'
             };
+            allPlacemarks.push(placemark_Облагание);
             myMap.geoObjects.add(placemark_Облагание);
         
             var placemark_Облуживание = new ymaps.Placemark([53.190143, 45.165352], {
@@ -631,6 +687,7 @@
                 placemark: placemark_Облуживание,
                 responsible: 'Аверьянов'
             };
+            allPlacemarks.push(placemark_Облуживание);
             myMap.geoObjects.add(placemark_Облуживание);
         
             var placemark_Овинцы = new ymaps.Placemark([53.15812, 44.955811], {
@@ -642,6 +699,7 @@
                 placemark: placemark_Овинцы,
                 responsible: 'Аверьянов'
             };
+            allPlacemarks.push(placemark_Овинцы);
             myMap.geoObjects.add(placemark_Овинцы);
         
             var placemark_Оптант = new ymaps.Placemark([53.226094, 44.931781], {
@@ -653,6 +711,7 @@
                 placemark: placemark_Оптант,
                 responsible: 'Демин'
             };
+            allPlacemarks.push(placemark_Оптант);
             myMap.geoObjects.add(placemark_Оптант);
         
             var placemark_Осановец = new ymaps.Placemark([53.177915, 45.038726], {
@@ -664,6 +723,7 @@
                 placemark: placemark_Осановец,
                 responsible: 'Фадеев'
             };
+            allPlacemarks.push(placemark_Осановец);
             myMap.geoObjects.add(placemark_Осановец);
         
             var placemark_Отвертка = new ymaps.Placemark([53.190122, 43.977393], {
@@ -675,6 +735,7 @@
                 placemark: placemark_Отвертка,
                 responsible: 'Кисловский'
             };
+            allPlacemarks.push(placemark_Отвертка);
             myMap.geoObjects.add(placemark_Отвертка);
         
             var placemark_Пазл = new ymaps.Placemark([53.221295, 44.895058], {
@@ -686,6 +747,7 @@
                 placemark: placemark_Пазл,
                 responsible: 'Демин'
             };
+            allPlacemarks.push(placemark_Пазл);
             myMap.geoObjects.add(placemark_Пазл);
         
             var placemark_Панкратовский = new ymaps.Placemark([53.216238, 44.813033], {
@@ -697,6 +759,7 @@
                 placemark: placemark_Панкратовский,
                 responsible: 'Демин'
             };
+            allPlacemarks.push(placemark_Панкратовский);
             myMap.geoObjects.add(placemark_Панкратовский);
         
             var placemark_Пахлава = new ymaps.Placemark([53.504853, 43.665561], {
@@ -708,6 +771,7 @@
                 placemark: placemark_Пахлава,
                 responsible: 'Пивкин_Кошкин'
             };
+            allPlacemarks.push(placemark_Пахлава);
             myMap.geoObjects.add(placemark_Пахлава);
         
             var placemark_Пачелмский = new ymaps.Placemark([53.330117, 43.325611], {
@@ -719,6 +783,7 @@
                 placemark: placemark_Пачелмский,
                 responsible: 'Пивкин_Кошкин'
             };
+            allPlacemarks.push(placemark_Пачелмский);
             myMap.geoObjects.add(placemark_Пачелмский);
         
             var placemark_Переходовец = new ymaps.Placemark([53.310764, 45.043657], {
@@ -730,6 +795,7 @@
                 placemark: placemark_Переходовец,
                 responsible: 'Фадеев'
             };
+            allPlacemarks.push(placemark_Переходовец);
             myMap.geoObjects.add(placemark_Переходовец);
         
             var placemark_Пилинг = new ymaps.Placemark([53.197286, 43.977725], {
@@ -741,6 +807,7 @@
                 placemark: placemark_Пилинг,
                 responsible: 'Кисловский'
             };
+            allPlacemarks.push(placemark_Пилинг);
             myMap.geoObjects.add(placemark_Пилинг);
         
             var placemark_Пластиночник = new ymaps.Placemark([53.215596, 45.053566000000004], {
@@ -752,6 +819,7 @@
                 placemark: placemark_Пластиночник,
                 responsible: 'Фадеев'
             };
+            allPlacemarks.push(placemark_Пластиночник);
             myMap.geoObjects.add(placemark_Пластиночник);
         
             var placemark_Подотчетность = new ymaps.Placemark([53.160874, 45.023751], {
@@ -763,6 +831,7 @@
                 placemark: placemark_Подотчетность,
                 responsible: 'Аверьянов'
             };
+            allPlacemarks.push(placemark_Подотчетность);
             myMap.geoObjects.add(placemark_Подотчетность);
         
             var placemark_Помело = new ymaps.Placemark([53.232584, 44.917615], {
@@ -774,6 +843,7 @@
                 placemark: placemark_Помело,
                 responsible: 'Демин'
             };
+            allPlacemarks.push(placemark_Помело);
             myMap.geoObjects.add(placemark_Помело);
         
             var placemark_Помолвленный = new ymaps.Placemark([53.210829, 44.980353], {
@@ -785,6 +855,7 @@
                 placemark: placemark_Помолвленный,
                 responsible: 'Аверьянов'
             };
+            allPlacemarks.push(placemark_Помолвленный);
             myMap.geoObjects.add(placemark_Помолвленный);
         
             var placemark_Преследователь = new ymaps.Placemark([53.142437, 45.031997], {
@@ -796,6 +867,7 @@
                 placemark: placemark_Преследователь,
                 responsible: 'Аверьянов'
             };
+            allPlacemarks.push(placemark_Преследователь);
             myMap.geoObjects.add(placemark_Преследователь);
         
             var placemark_Прокат = new ymaps.Placemark([53.195306, 43.984607], {
@@ -807,6 +879,7 @@
                 placemark: placemark_Прокат,
                 responsible: 'Кисловский'
             };
+            allPlacemarks.push(placemark_Прокат);
             myMap.geoObjects.add(placemark_Прокат);
         
             var placemark_Пунктуация = new ymaps.Placemark([53.431934, 44.597518], {
@@ -818,6 +891,7 @@
                 placemark: placemark_Пунктуация,
                 responsible: 'Демин'
             };
+            allPlacemarks.push(placemark_Пунктуация);
             myMap.geoObjects.add(placemark_Пунктуация);
         
             var placemark_Распознавание = new ymaps.Placemark([53.235494, 44.877909], {
@@ -829,6 +903,7 @@
                 placemark: placemark_Распознавание,
                 responsible: 'Демин'
             };
+            allPlacemarks.push(placemark_Распознавание);
             myMap.geoObjects.add(placemark_Распознавание);
         
             var placemark_Распоясывание = new ymaps.Placemark([53.222767, 44.888366], {
@@ -840,6 +915,7 @@
                 placemark: placemark_Распоясывание,
                 responsible: 'Демин'
             };
+            allPlacemarks.push(placemark_Распоясывание);
             myMap.geoObjects.add(placemark_Распоясывание);
         
             var placemark_Римесса = new ymaps.Placemark([53.140509, 45.038663], {
@@ -851,6 +927,7 @@
                 placemark: placemark_Римесса,
                 responsible: 'Аверьянов'
             };
+            allPlacemarks.push(placemark_Римесса);
             myMap.geoObjects.add(placemark_Римесса);
         
             var placemark_Садко = new ymaps.Placemark([53.222379, 44.920956], {
@@ -862,6 +939,7 @@
                 placemark: placemark_Садко,
                 responsible: 'Аверьянов'
             };
+            allPlacemarks.push(placemark_Садко);
             myMap.geoObjects.add(placemark_Садко);
         
             var placemark_Сальса = new ymaps.Placemark([53.230552, 44.920516], {
@@ -873,6 +951,7 @@
                 placemark: placemark_Сальса,
                 responsible: 'Демин'
             };
+            allPlacemarks.push(placemark_Сальса);
             myMap.geoObjects.add(placemark_Сальса);
         
             var placemark_Серебряный = new ymaps.Placemark([53.202297, 45.159657], {
@@ -884,6 +963,7 @@
                 placemark: placemark_Серебряный,
                 responsible: 'Аверьянов'
             };
+            allPlacemarks.push(placemark_Серебряный);
             myMap.geoObjects.add(placemark_Серебряный);
         
             var placemark_Скорописание = new ymaps.Placemark([52.965316, 43.419153], {
@@ -895,6 +975,7 @@
                 placemark: placemark_Скорописание,
                 responsible: 'Кисловский'
             };
+            allPlacemarks.push(placemark_Скорописание);
             myMap.geoObjects.add(placemark_Скорописание);
         
             var placemark_Тайими = new ymaps.Placemark([53.167039, 44.975951], {
@@ -906,6 +987,7 @@
                 placemark: placemark_Тайими,
                 responsible: 'Аверьянов'
             };
+            allPlacemarks.push(placemark_Тайими);
             myMap.geoObjects.add(placemark_Тайими);
         
             var placemark_Теперское = new ymaps.Placemark([53.22294, 45.000026], {
@@ -917,6 +999,7 @@
                 placemark: placemark_Теперское,
                 responsible: 'Фадеев'
             };
+            allPlacemarks.push(placemark_Теперское);
             myMap.geoObjects.add(placemark_Теперское);
         
             var placemark_Теренкуль = new ymaps.Placemark([52.967909, 43.416], {
@@ -928,6 +1011,7 @@
                 placemark: placemark_Теренкуль,
                 responsible: 'Кисловский'
             };
+            allPlacemarks.push(placemark_Теренкуль);
             myMap.geoObjects.add(placemark_Теренкуль);
         
             var placemark_Труфанково = new ymaps.Placemark([53.233279, 44.927299], {
@@ -939,6 +1023,7 @@
                 placemark: placemark_Труфанково,
                 responsible: 'Демин'
             };
+            allPlacemarks.push(placemark_Труфанково);
             myMap.geoObjects.add(placemark_Труфанково);
         
             var placemark_Турмер = new ymaps.Placemark([53.218848, 44.942642], {
@@ -950,6 +1035,7 @@
                 placemark: placemark_Турмер,
                 responsible: 'Аверьянов'
             };
+            allPlacemarks.push(placemark_Турмер);
             myMap.geoObjects.add(placemark_Турмер);
         
             var placemark_Хаскель = new ymaps.Placemark([53.174996, 44.037571], {
@@ -961,6 +1047,7 @@
                 placemark: placemark_Хаскель,
                 responsible: 'Кисловский'
             };
+            allPlacemarks.push(placemark_Хаскель);
             myMap.geoObjects.add(placemark_Хаскель);
         
             var placemark_Хотынец = new ymaps.Placemark([53.220622, 45.230974], {
@@ -972,6 +1059,7 @@
                 placemark: placemark_Хотынец,
                 responsible: 'Фадеев'
             };
+            allPlacemarks.push(placemark_Хотынец);
             myMap.geoObjects.add(placemark_Хотынец);
         
             var placemark_Целительность = new ymaps.Placemark([53.181839, 45.055973], {
@@ -983,6 +1071,7 @@
                 placemark: placemark_Целительность,
                 responsible: 'Фадеев'
             };
+            allPlacemarks.push(placemark_Целительность);
             myMap.geoObjects.add(placemark_Целительность);
         
             var placemark_Чиназ = new ymaps.Placemark([53.175023, 45.014561], {
@@ -994,6 +1083,7 @@
                 placemark: placemark_Чиназ,
                 responsible: 'Фадеев'
             };
+            allPlacemarks.push(placemark_Чиназ);
             myMap.geoObjects.add(placemark_Чиназ);
         
             var placemark_Чипполино = new ymaps.Placemark([53.692648, 43.051526], {
@@ -1005,6 +1095,7 @@
                 placemark: placemark_Чипполино,
                 responsible: 'Пивкин_Кошкин'
             };
+            allPlacemarks.push(placemark_Чипполино);
             myMap.geoObjects.add(placemark_Чипполино);
         
             var placemark_Чирката = new ymaps.Placemark([53.223619, 44.936848], {
@@ -1016,6 +1107,7 @@
                 placemark: placemark_Чирката,
                 responsible: 'Фадеев'
             };
+            allPlacemarks.push(placemark_Чирката);
             myMap.geoObjects.add(placemark_Чирката);
         
             var placemark_Шмаково = new ymaps.Placemark([53.217009, 45.016501], {
@@ -1027,6 +1119,7 @@
                 placemark: placemark_Шмаково,
                 responsible: 'Аверьянов'
             };
+            allPlacemarks.push(placemark_Шмаково);
             myMap.geoObjects.add(placemark_Шмаково);
         
             var placemark_Шнитке = new ymaps.Placemark([53.176026, 45.049946], {
@@ -1038,6 +1131,7 @@
                 placemark: placemark_Шнитке,
                 responsible: 'Фадеев'
             };
+            allPlacemarks.push(placemark_Шнитке);
             myMap.geoObjects.add(placemark_Шнитке);
         
             var placemark_Экипаж = new ymaps.Placemark([53.19112, 43.984265], {
@@ -1049,6 +1143,7 @@
                 placemark: placemark_Экипаж,
                 responsible: 'Кисловский'
             };
+            allPlacemarks.push(placemark_Экипаж);
             myMap.geoObjects.add(placemark_Экипаж);
         
             var placemark_Ясли = new ymaps.Placemark([53.212296, 43.036462], {
@@ -1060,19 +1155,37 @@
                 placemark: placemark_Ясли,
                 responsible: 'Пивкин_Кошкин'
             };
+            allPlacemarks.push(placemark_Ясли);
             myMap.geoObjects.add(placemark_Ясли);
         
             window.filterPlacemarks = function(responsible) {
-                for (var key in placemarks) {
-                    if (placemarks.hasOwnProperty(key)) {
-                        var placemark = placemarks[key].placemark;
-                        if (responsible === 'all' || placemarks[key].responsible === responsible) {
-                            myMap.geoObjects.add(placemark);
-                        } else {
-                            myMap.geoObjects.remove(placemark);
+                myMap.geoObjects.removeAll();
+                if (responsible === 'all') {
+                    allPlacemarks.forEach(function(placemark) {
+                        myMap.geoObjects.add(placemark);
+                    });
+                } else {
+                    for (var key in placemarks) {
+                        if (placemarks.hasOwnProperty(key)) {
+                            var placemark = placemarks[key].placemark;
+                            if (placemarks[key].responsible === responsible) {
+                                myMap.geoObjects.add(placemark);
+                            }
                         }
                     }
                 }
+                updateTable(responsible);
+            };
+
+            function updateTable(responsible) {
+                var rows = document.querySelectorAll('table tbody tr');
+                rows.forEach(function(row) {
+                    row.style.display = 'none';
+                });
+                var filteredRows = document.querySelectorAll('table tbody tr[data-responsible="' + responsible + '"], table tbody tr[data-responsible=""]');
+                filteredRows.forEach(function(row) {
+                    row.style.display = '';
+                });
             }
         }
     </script>
@@ -1145,7 +1258,7 @@
 </head>
 <body>
     <h1>Евроком - Пенза - Все заявки</h1>
-    <h2>Дата обновления: 2024-08-25 21:42</h2>
+    <h2>Дата обновления: 2024-08-25 21:51</h2>
     <div class="button-group">
         <a href="javascript:void(0);" onclick="filterPlacemarks('all')">Все</a>
 <a href="javascript:void(0);" onclick="filterPlacemarks('Пивкин_Кошкин')">Пивкин_Кошкин</a>
@@ -1175,7 +1288,7 @@
         </thead>
         <tbody>
 
-                    <tr>
+                    <tr data-responsible="Пивкин_Кошкин">
                         <td><a href="javascript:void(0);" onclick="activatePlacemark('Абашево')">Абашево</a></td>
                         <td>SMT-в00004885161</td>
                         <td>Низкая</td>
@@ -1198,7 +1311,7 @@
 Номер телефона: 89374288588</td>
                     </tr>
                 
-                    <tr>
+                    <tr data-responsible="Пивкин_Кошкин">
                         <td><a href="javascript:void(0);" onclick="activatePlacemark('Абашево')">Абашево</a></td>
                         <td>SMT-в00004926834</td>
                         <td>Высокая</td>
@@ -1211,7 +1324,7 @@
 Один объект = 1 Акт ТО.</td>
                     </tr>
                 
-                    <tr>
+                    <tr data-responsible="Пивкин_Кошкин">
                         <td><a href="javascript:void(0);" onclick="activatePlacemark('Абашево')">Абашево</a></td>
                         <td>SMT-в00004758460</td>
                         <td>Средняя</td>
@@ -1225,7 +1338,7 @@
 Предоставить обратную связь, задавать вопросы: Глизнуца Александр Николаевич gliznuca_an@magnit.ru; Никитин Юрий Валентинович nikitin@magnit.ru; Корвель Андрей Андреевич korvel_aa@magnit.ru</td>
                     </tr>
                 
-                    <tr>
+                    <tr data-responsible="Пивкин_Кошкин">
                         <td><a href="javascript:void(0);" onclick="activatePlacemark('Абашево')">Абашево</a></td>
                         <td>SMT-в00004652357</td>
                         <td>Высокая</td>
@@ -1238,7 +1351,7 @@
 Один объект = 1 Акт ТО.</td>
                     </tr>
                 
-                    <tr>
+                    <tr data-responsible="Кисловский">
                         <td><a href="javascript:void(0);" onclick="activatePlacemark('Алабама')">Алабама</a></td>
                         <td>SMT-в00004796353</td>
                         <td>Низкая</td>
@@ -1261,7 +1374,7 @@
 Номер телефона: 89875142086</td>
                     </tr>
                 
-                    <tr>
+                    <tr data-responsible="Демин">
                         <td><a href="javascript:void(0);" onclick="activatePlacemark('Арбеково')">Арбеково</a></td>
                         <td>SMT-в00004654884</td>
                         <td>Высокая</td>
@@ -1274,7 +1387,7 @@
 Один объект = 1 Акт ТО.</td>
                     </tr>
                 
-                    <tr>
+                    <tr data-responsible="Аверьянов">
                         <td><a href="javascript:void(0);" onclick="activatePlacemark('Бартал')">Бартал</a></td>
                         <td>SMT-в00004758492</td>
                         <td>Средняя</td>
@@ -1288,7 +1401,7 @@
 Предоставить обратную связь, задавать вопросы: Глизнуца Александр Николаевич gliznuca_an@magnit.ru; Никитин Юрий Валентинович nikitin@magnit.ru; Корвель Андрей Андреевич korvel_aa@magnit.ru</td>
                     </tr>
                 
-                    <tr>
+                    <tr data-responsible="Пивкин_Кошкин">
                         <td><a href="javascript:void(0);" onclick="activatePlacemark('Башмаково')">Башмаково</a></td>
                         <td>SMT-в00004851340</td>
                         <td>Низкая</td>
@@ -1311,7 +1424,7 @@
 Номер телефона: 89093219132</td>
                     </tr>
                 
-                    <tr>
+                    <tr data-responsible="Фадеев">
                         <td><a href="javascript:void(0);" onclick="activatePlacemark('Беляевский')">Беляевский</a></td>
                         <td>SMT-в00004949192</td>
                         <td>Низкая</td>
@@ -1332,7 +1445,7 @@
 Номер телефона: 89374457670</td>
                     </tr>
                 
-                    <tr>
+                    <tr data-responsible="Фадеев">
                         <td><a href="javascript:void(0);" onclick="activatePlacemark('Беляевский')">Беляевский</a></td>
                         <td>SMT-в00004758494</td>
                         <td>Средняя</td>
@@ -1346,7 +1459,7 @@
 Предоставить обратную связь, задавать вопросы: Глизнуца Александр Николаевич gliznuca_an@magnit.ru; Никитин Юрий Валентинович nikitin@magnit.ru; Корвель Андрей Андреевич korvel_aa@magnit.ru</td>
                     </tr>
                 
-                    <tr>
+                    <tr data-responsible="Демин">
                         <td><a href="javascript:void(0);" onclick="activatePlacemark('Бесподобный')">Бесподобный</a></td>
                         <td>SMT-в00004115629</td>
                         <td>Низкая</td>
@@ -1358,7 +1471,7 @@
                         <td class="description">Устранение замечаний по итогам проведения аудита. ГК Вдоль фасада здания со стороны проезда бетонная отмостка на отвесных, горизонтальных участках отсутствует плитка, частично разрушен железобетон Восстановить бетонную отмостку ремонтным составом, восстановить покрытие плиткой </td>
                     </tr>
                 
-                    <tr>
+                    <tr data-responsible="Демин">
                         <td><a href="javascript:void(0);" onclick="activatePlacemark('Бесподобный')">Бесподобный</a></td>
                         <td>SMT-в00004115630</td>
                         <td>Низкая</td>
@@ -1370,7 +1483,7 @@
                         <td class="description">Устранение замечаний по итогам проведения аудита. ГК Пандус входной группы, повреждена плитка восстановить плитку</td>
                     </tr>
                 
-                    <tr>
+                    <tr data-responsible="Демин">
                         <td><a href="javascript:void(0);" onclick="activatePlacemark('Бесподобный')">Бесподобный</a></td>
                         <td>SMT-в00004115632</td>
                         <td>Низкая</td>
@@ -1382,7 +1495,7 @@
                         <td class="description">Устранение замечаний по итогам проведения аудита. ГК Не закреплены отбойники для тележек в коридоре АБК Восстановить, закрепить отбойники на стене</td>
                     </tr>
                 
-                    <tr>
+                    <tr data-responsible="Демин">
                         <td><a href="javascript:void(0);" onclick="activatePlacemark('Бесподобный')">Бесподобный</a></td>
                         <td>SMT-в00004989078</td>
                         <td>Низкая</td>
@@ -1405,7 +1518,7 @@
 Номер телефона: +79085292002</td>
                     </tr>
                 
-                    <tr>
+                    <tr data-responsible="Демин">
                         <td><a href="javascript:void(0);" onclick="activatePlacemark('Бесподобный')">Бесподобный</a></td>
                         <td>SMT-в00004985880</td>
                         <td>Низкая</td>
@@ -1426,7 +1539,7 @@
 Номер телефона: +79085292002</td>
                     </tr>
                 
-                    <tr>
+                    <tr data-responsible="Пивкин_Кошкин">
                         <td><a href="javascript:void(0);" onclick="activatePlacemark('Близкий')">Близкий</a></td>
                         <td>SMT-в00004944215</td>
                         <td>Низкая</td>
@@ -1447,7 +1560,7 @@
 Номер телефона: +9648763920</td>
                     </tr>
                 
-                    <tr>
+                    <tr data-responsible="Фадеев">
                         <td><a href="javascript:void(0);" onclick="activatePlacemark('Болотоход')">Болотоход</a></td>
                         <td>SMT-в00004992467</td>
                         <td>Низкая</td>
@@ -1470,7 +1583,7 @@
 Номер телефона: 89502304504</td>
                     </tr>
                 
-                    <tr>
+                    <tr data-responsible="Фадеев">
                         <td><a href="javascript:void(0);" onclick="activatePlacemark('Болотоход')">Болотоход</a></td>
                         <td>SMT-в00004758510</td>
                         <td>Средняя</td>
@@ -1484,7 +1597,7 @@
 Предоставить обратную связь, задавать вопросы: Глизнуца Александр Николаевич gliznuca_an@magnit.ru; Никитин Юрий Валентинович nikitin@magnit.ru; Корвель Андрей Андреевич korvel_aa@magnit.ru</td>
                     </tr>
                 
-                    <tr>
+                    <tr data-responsible="Фадеев">
                         <td><a href="javascript:void(0);" onclick="activatePlacemark('Брага')">Брага</a></td>
                         <td>SMT-в00004972221</td>
                         <td>Низкая</td>
@@ -1505,7 +1618,7 @@
 Номер телефона: 89093170531</td>
                     </tr>
                 
-                    <tr>
+                    <tr data-responsible="Фадеев">
                         <td><a href="javascript:void(0);" onclick="activatePlacemark('Брага')">Брага</a></td>
                         <td>SMT-в00004972679</td>
                         <td>Низкая</td>
@@ -1528,7 +1641,7 @@
 Номер телефона: 89093170531</td>
                     </tr>
                 
-                    <tr>
+                    <tr data-responsible="Фадеев">
                         <td><a href="javascript:void(0);" onclick="activatePlacemark('Брага')">Брага</a></td>
                         <td>SMT-в00004926919</td>
                         <td>Высокая</td>
@@ -1541,7 +1654,7 @@
 Один объект = 1 Акт ТО.</td>
                     </tr>
                 
-                    <tr>
+                    <tr data-responsible="Фадеев">
                         <td><a href="javascript:void(0);" onclick="activatePlacemark('Братское')">Братское</a></td>
                         <td>SMT-в00004837349</td>
                         <td>Средняя</td>
@@ -1564,7 +1677,7 @@
 Номер телефона: 89297688868</td>
                     </tr>
                 
-                    <tr>
+                    <tr data-responsible="Пивкин_Кошкин">
                         <td><a href="javascript:void(0);" onclick="activatePlacemark('Бриф')">Бриф</a></td>
                         <td>SMT-в00004926925</td>
                         <td>Высокая</td>
@@ -1577,7 +1690,7 @@
 Один объект = 1 Акт ТО.</td>
                     </tr>
                 
-                    <tr>
+                    <tr data-responsible="Пивкин_Кошкин">
                         <td><a href="javascript:void(0);" onclick="activatePlacemark('Бриф')">Бриф</a></td>
                         <td>SMT-в00004652456</td>
                         <td>Высокая</td>
@@ -1590,7 +1703,7 @@
 Один объект = 1 Акт ТО.</td>
                     </tr>
                 
-                    <tr>
+                    <tr data-responsible="Демин">
                         <td><a href="javascript:void(0);" onclick="activatePlacemark('Бубнова')">Бубнова</a></td>
                         <td>SMT-в00004896411</td>
                         <td>Средняя</td>
@@ -1613,7 +1726,7 @@
 Номер телефона: 79933782453</td>
                     </tr>
                 
-                    <tr>
+                    <tr data-responsible="Демин">
                         <td><a href="javascript:void(0);" onclick="activatePlacemark('Бубнова')">Бубнова</a></td>
                         <td>SMT-в00004991294</td>
                         <td>Средняя</td>
@@ -1634,7 +1747,7 @@
 Номер телефона: 89374067779</td>
                     </tr>
                 
-                    <tr>
+                    <tr data-responsible="Демин">
                         <td><a href="javascript:void(0);" onclick="activatePlacemark('Бубнова')">Бубнова</a></td>
                         <td>SMT-в00004962274</td>
                         <td>Низкая</td>
@@ -1657,7 +1770,7 @@
 Номер телефона: 89374067779</td>
                     </tr>
                 
-                    <tr>
+                    <tr data-responsible="Демин">
                         <td><a href="javascript:void(0);" onclick="activatePlacemark('Бубнова')">Бубнова</a></td>
                         <td>SMT-в00004979822</td>
                         <td>Низкая</td>
@@ -1678,7 +1791,7 @@
 Номер телефона: 79933782453</td>
                     </tr>
                 
-                    <tr>
+                    <tr data-responsible="Кисловский">
                         <td><a href="javascript:void(0);" onclick="activatePlacemark('Ватрушка')">Ватрушка</a></td>
                         <td>SMT-в00004980872</td>
                         <td>Средняя</td>
@@ -1700,7 +1813,7 @@
 Номер телефона: 89603273210</td>
                     </tr>
                 
-                    <tr>
+                    <tr data-responsible="Кисловский">
                         <td><a href="javascript:void(0);" onclick="activatePlacemark('Ватрушка')">Ватрушка</a></td>
                         <td>SMT-в00004758530</td>
                         <td>Средняя</td>
@@ -1714,7 +1827,7 @@
 Предоставить обратную связь, задавать вопросы: Глизнуца Александр Николаевич gliznuca_an@magnit.ru; Никитин Юрий Валентинович nikitin@magnit.ru; Корвель Андрей Андреевич korvel_aa@magnit.ru</td>
                     </tr>
                 
-                    <tr>
+                    <tr data-responsible="Демин">
                         <td><a href="javascript:void(0);" onclick="activatePlacemark('Версаль')">Версаль</a></td>
                         <td>SMT-в00004975248</td>
                         <td>Низкая</td>
@@ -1737,7 +1850,7 @@
 Номер телефона: 89674488420</td>
                     </tr>
                 
-                    <tr>
+                    <tr data-responsible="Демин">
                         <td><a href="javascript:void(0);" onclick="activatePlacemark('Версаль')">Версаль</a></td>
                         <td>SMT-в00004981685</td>
                         <td>Низкая</td>
@@ -1760,7 +1873,7 @@
 Номер телефона: 89674488420</td>
                     </tr>
                 
-                    <tr>
+                    <tr data-responsible="Аверьянов">
                         <td><a href="javascript:void(0);" onclick="activatePlacemark('Вильда')">Вильда</a></td>
                         <td>SMT-в00004926956</td>
                         <td>Высокая</td>
@@ -1773,7 +1886,7 @@
 Один объект = 1 Акт ТО.</td>
                     </tr>
                 
-                    <tr>
+                    <tr data-responsible="Аверьянов">
                         <td><a href="javascript:void(0);" onclick="activatePlacemark('Вильда')">Вильда</a></td>
                         <td>SMT-в00004993657</td>
                         <td>Низкая</td>
@@ -1796,7 +1909,7 @@
 Номер телефона: 89379147900</td>
                     </tr>
                 
-                    <tr>
+                    <tr data-responsible="Аверьянов">
                         <td><a href="javascript:void(0);" onclick="activatePlacemark('Вильда')">Вильда</a></td>
                         <td>SMT-в00004993665</td>
                         <td>Низкая</td>
@@ -1819,7 +1932,7 @@
 Номер телефона: 89379147900</td>
                     </tr>
                 
-                    <tr>
+                    <tr data-responsible="Аверьянов">
                         <td><a href="javascript:void(0);" onclick="activatePlacemark('Вильда')">Вильда</a></td>
                         <td>SMT-в00004758539</td>
                         <td>Средняя</td>
@@ -1833,7 +1946,7 @@
 Предоставить обратную связь, задавать вопросы: Глизнуца Александр Николаевич gliznuca_an@magnit.ru; Никитин Юрий Валентинович nikitin@magnit.ru; Корвель Андрей Андреевич korvel_aa@magnit.ru</td>
                     </tr>
                 
-                    <tr>
+                    <tr data-responsible="Аверьянов">
                         <td><a href="javascript:void(0);" onclick="activatePlacemark('Вильда')">Вильда</a></td>
                         <td>SMT-в00004652489</td>
                         <td>Высокая</td>
@@ -1846,7 +1959,7 @@
 Один объект = 1 Акт ТО.</td>
                     </tr>
                 
-                    <tr>
+                    <tr data-responsible="Аверьянов">
                         <td><a href="javascript:void(0);" onclick="activatePlacemark('Влад')">Влад</a></td>
                         <td>SMT-в00004843935</td>
                         <td>Низкая</td>
@@ -1867,7 +1980,7 @@
 Номер телефона: 89613542500</td>
                     </tr>
                 
-                    <tr>
+                    <tr data-responsible="Аверьянов">
                         <td><a href="javascript:void(0);" onclick="activatePlacemark('Влад')">Влад</a></td>
                         <td>SMT-в00004977461</td>
                         <td>Низкая</td>
@@ -1890,7 +2003,7 @@
 Номер телефона: 89603173138</td>
                     </tr>
                 
-                    <tr>
+                    <tr data-responsible="Аверьянов">
                         <td><a href="javascript:void(0);" onclick="activatePlacemark('Влад')">Влад</a></td>
                         <td>SMT-в00004758542</td>
                         <td>Средняя</td>
@@ -1904,7 +2017,7 @@
 Предоставить обратную связь, задавать вопросы: Глизнуца Александр Николаевич gliznuca_an@magnit.ru; Никитин Юрий Валентинович nikitin@magnit.ru; Корвель Андрей Андреевич korvel_aa@magnit.ru</td>
                     </tr>
                 
-                    <tr>
+                    <tr data-responsible="Демин">
                         <td><a href="javascript:void(0);" onclick="activatePlacemark('Вольдо')">Вольдо</a></td>
                         <td>SMT-в00004989518</td>
                         <td>Средняя</td>
@@ -1925,7 +2038,7 @@
 Номер телефона: 89603272015</td>
                     </tr>
                 
-                    <tr>
+                    <tr data-responsible="Демин">
                         <td><a href="javascript:void(0);" onclick="activatePlacemark('Вольдо')">Вольдо</a></td>
                         <td>SMT-в00004989499</td>
                         <td>Низкая</td>
@@ -1946,7 +2059,7 @@
 Номер телефона: 89603272015</td>
                     </tr>
                 
-                    <tr>
+                    <tr data-responsible="Пивкин_Кошкин">
                         <td><a href="javascript:void(0);" onclick="activatePlacemark('Герса')">Герса</a></td>
                         <td>SMT-в00004974372</td>
                         <td>Низкая</td>
@@ -1967,7 +2080,7 @@
 Номер телефона: 89273952463</td>
                     </tr>
                 
-                    <tr>
+                    <tr data-responsible="Пивкин_Кошкин">
                         <td><a href="javascript:void(0);" onclick="activatePlacemark('Герса')">Герса</a></td>
                         <td>SMT-в00004974403</td>
                         <td>Низкая</td>
@@ -1990,7 +2103,7 @@
 Номер телефона: 89273952463</td>
                     </tr>
                 
-                    <tr>
+                    <tr data-responsible="Пивкин_Кошкин">
                         <td><a href="javascript:void(0);" onclick="activatePlacemark('Герса')">Герса</a></td>
                         <td>SMT-в00004758566</td>
                         <td>Средняя</td>
@@ -2004,7 +2117,7 @@
 Предоставить обратную связь, задавать вопросы: Глизнуца Александр Николаевич gliznuca_an@magnit.ru; Никитин Юрий Валентинович nikitin@magnit.ru; Корвель Андрей Андреевич korvel_aa@magnit.ru</td>
                     </tr>
                 
-                    <tr>
+                    <tr data-responsible="Аверьянов">
                         <td><a href="javascript:void(0);" onclick="activatePlacemark('Глазуновский')">Глазуновский</a></td>
                         <td>SMT-в00004965110</td>
                         <td>Низкая</td>
@@ -2027,7 +2140,7 @@
 Номер телефона: 89374042487</td>
                     </tr>
                 
-                    <tr>
+                    <tr data-responsible="Пивкин_Кошкин">
                         <td><a href="javascript:void(0);" onclick="activatePlacemark('Глыбистость')">Глыбистость</a></td>
                         <td>SMT-в00004995831</td>
                         <td>Низкая</td>
@@ -2048,7 +2161,7 @@
 Номер телефона: 89660004433</td>
                     </tr>
                 
-                    <tr>
+                    <tr data-responsible="Фадеев">
                         <td><a href="javascript:void(0);" onclick="activatePlacemark('Десерт')">Десерт</a></td>
                         <td>SMT-в00004943273</td>
                         <td>Низкая</td>
@@ -2071,7 +2184,7 @@
 Номер телефона: 89374042777</td>
                     </tr>
                 
-                    <tr>
+                    <tr data-responsible="Фадеев">
                         <td><a href="javascript:void(0);" onclick="activatePlacemark('Дискретизация')">Дискретизация</a></td>
                         <td>SMT-в00004951254</td>
                         <td>Низкая</td>
@@ -2092,7 +2205,7 @@
 Номер телефона: 89273970186</td>
                     </tr>
                 
-                    <tr>
+                    <tr data-responsible="Фадеев">
                         <td><a href="javascript:void(0);" onclick="activatePlacemark('Дискретизация')">Дискретизация</a></td>
                         <td>SMT-в00004986946</td>
                         <td>Низкая</td>
@@ -2115,7 +2228,7 @@
 Номер телефона: 89273970186</td>
                     </tr>
                 
-                    <tr>
+                    <tr data-responsible="Фадеев">
                         <td><a href="javascript:void(0);" onclick="activatePlacemark('Дискретизация')">Дискретизация</a></td>
                         <td>SMT-в00004986978</td>
                         <td>Низкая</td>
@@ -2138,7 +2251,7 @@
 Номер телефона: 89273970186</td>
                     </tr>
                 
-                    <tr>
+                    <tr data-responsible="Демин">
                         <td><a href="javascript:void(0);" onclick="activatePlacemark('Довер')">Довер</a></td>
                         <td>SMT-в00004901874</td>
                         <td>Средняя</td>
@@ -2161,7 +2274,7 @@
 Номер телефона: 89631113086</td>
                     </tr>
                 
-                    <tr>
+                    <tr data-responsible="Демин">
                         <td><a href="javascript:void(0);" onclick="activatePlacemark('Довер')">Довер</a></td>
                         <td>SMT-в00004901878</td>
                         <td>Низкая</td>
@@ -2184,7 +2297,7 @@
 Номер телефона: 89631113086</td>
                     </tr>
                 
-                    <tr>
+                    <tr data-responsible="Демин">
                         <td><a href="javascript:void(0);" onclick="activatePlacemark('Довер')">Довер</a></td>
                         <td>SMT-в00004654042</td>
                         <td>Высокая</td>
@@ -2197,7 +2310,7 @@
 Один объект = 1 Акт ТО.</td>
                     </tr>
                 
-                    <tr>
+                    <tr data-responsible="Демин">
                         <td><a href="javascript:void(0);" onclick="activatePlacemark('Дубовиково')">Дубовиково</a></td>
                         <td>SMT-в00004989817</td>
                         <td>Низкая</td>
@@ -2218,7 +2331,7 @@
 Номер телефона: 89875036888</td>
                     </tr>
                 
-                    <tr>
+                    <tr data-responsible="Демин">
                         <td><a href="javascript:void(0);" onclick="activatePlacemark('Дубовиково')">Дубовиково</a></td>
                         <td>SMT-в00004934738</td>
                         <td>Низкая</td>
@@ -2239,7 +2352,7 @@
 Номер телефона: 89063994462</td>
                     </tr>
                 
-                    <tr>
+                    <tr data-responsible="Демин">
                         <td><a href="javascript:void(0);" onclick="activatePlacemark('Завлекательный')">Завлекательный</a></td>
                         <td>SMT-в00004873711</td>
                         <td>Низкая</td>
@@ -2251,7 +2364,7 @@
                         <td class="description">Устранение замечаний по итогам проведения аудита. ГК Повреждена плитка в АБК Заменить плитку, основание под плиткой</td>
                     </tr>
                 
-                    <tr>
+                    <tr data-responsible="Демин">
                         <td><a href="javascript:void(0);" onclick="activatePlacemark('Завлекательный')">Завлекательный</a></td>
                         <td>SMT-в00004950945</td>
                         <td>Низкая</td>
@@ -2272,7 +2385,7 @@
 Номер телефона: 9273903348</td>
                     </tr>
                 
-                    <tr>
+                    <tr data-responsible="Демин">
                         <td><a href="javascript:void(0);" onclick="activatePlacemark('Завлекательный')">Завлекательный</a></td>
                         <td>SMT-в00004654071</td>
                         <td>Высокая</td>
@@ -2285,7 +2398,7 @@
 Один объект = 1 Акт ТО.</td>
                     </tr>
                 
-                    <tr>
+                    <tr data-responsible="Аверьянов">
                         <td><a href="javascript:void(0);" onclick="activatePlacemark('Златоцвет')">Златоцвет</a></td>
                         <td>SMT-в00004713014</td>
                         <td>Средняя</td>
@@ -2307,7 +2420,7 @@
 Номер телефона: 89603229783</td>
                     </tr>
                 
-                    <tr>
+                    <tr data-responsible="Аверьянов">
                         <td><a href="javascript:void(0);" onclick="activatePlacemark('Златоцвет')">Златоцвет</a></td>
                         <td>SMT-в00004828219</td>
                         <td>Низкая</td>
@@ -2330,7 +2443,7 @@
 Номер телефона: 89603229783</td>
                     </tr>
                 
-                    <tr>
+                    <tr data-responsible="Фадеев">
                         <td><a href="javascript:void(0);" onclick="activatePlacemark('Ижа')">Ижа</a></td>
                         <td>SMT-в00004924481</td>
                         <td>Средняя</td>
@@ -2353,7 +2466,7 @@
 Номер телефона: 9023539004</td>
                     </tr>
                 
-                    <tr>
+                    <tr data-responsible="Пивкин_Кошкин">
                         <td><a href="javascript:void(0);" onclick="activatePlacemark('Имиджсеттер')">Имиджсеттер</a></td>
                         <td>SMT-в00004911625</td>
                         <td>Средняя</td>
@@ -2376,7 +2489,7 @@
 Номер телефона: 89674428970</td>
                     </tr>
                 
-                    <tr>
+                    <tr data-responsible="Пивкин_Кошкин">
                         <td><a href="javascript:void(0);" onclick="activatePlacemark('Имиджсеттер')">Имиджсеттер</a></td>
                         <td>SMT-в00004758604</td>
                         <td>Средняя</td>
@@ -2390,7 +2503,7 @@
 Предоставить обратную связь, задавать вопросы: Глизнуца Александр Николаевич gliznuca_an@magnit.ru; Никитин Юрий Валентинович nikitin@magnit.ru; Корвель Андрей Андреевич korvel_aa@magnit.ru</td>
                     </tr>
                 
-                    <tr>
+                    <tr data-responsible="Фадеев">
                         <td><a href="javascript:void(0);" onclick="activatePlacemark('Иностранка')">Иностранка</a></td>
                         <td>SMT-в00004945459</td>
                         <td>Низкая</td>
@@ -2413,7 +2526,7 @@
 Номер телефона: 8 927 393 30 50</td>
                     </tr>
                 
-                    <tr>
+                    <tr data-responsible="Фадеев">
                         <td><a href="javascript:void(0);" onclick="activatePlacemark('Иностранка')">Иностранка</a></td>
                         <td>SMT-в00004955646</td>
                         <td>Низкая</td>
@@ -2434,7 +2547,7 @@
 Номер телефона: 8 927 393 30 50</td>
                     </tr>
                 
-                    <tr>
+                    <tr data-responsible="Демин">
                         <td><a href="javascript:void(0);" onclick="activatePlacemark('Каража')">Каража</a></td>
                         <td>SMT-в00004817368</td>
                         <td>Низкая</td>
@@ -2456,7 +2569,7 @@
 Номер телефона: 89273676286</td>
                     </tr>
                 
-                    <tr>
+                    <tr data-responsible="Фадеев">
                         <td><a href="javascript:void(0);" onclick="activatePlacemark('Кварса')">Кварса</a></td>
                         <td>SMT-в00004941806</td>
                         <td>Низкая</td>
@@ -2477,7 +2590,7 @@
 Номер телефона: 89374467622</td>
                     </tr>
                 
-                    <tr>
+                    <tr data-responsible="Аверьянов">
                         <td><a href="javascript:void(0);" onclick="activatePlacemark('Кентан')">Кентан</a></td>
                         <td>SMT-в00004758621</td>
                         <td>Средняя</td>
@@ -2491,7 +2604,7 @@
 Предоставить обратную связь, задавать вопросы: Глизнуца Александр Николаевич gliznuca_an@magnit.ru; Никитин Юрий Валентинович nikitin@magnit.ru; Корвель Андрей Андреевич korvel_aa@magnit.ru</td>
                     </tr>
                 
-                    <tr>
+                    <tr data-responsible="Демин">
                         <td><a href="javascript:void(0);" onclick="activatePlacemark('Клатч')">Клатч</a></td>
                         <td>SMT-в00004959833</td>
                         <td>Низкая</td>
@@ -2512,7 +2625,7 @@
 Номер телефона: 89374402318</td>
                     </tr>
                 
-                    <tr>
+                    <tr data-responsible="Фадеев">
                         <td><a href="javascript:void(0);" onclick="activatePlacemark('Клинкерование')">Клинкерование</a></td>
                         <td>SMT-в00004983061</td>
                         <td>Низкая</td>
@@ -2535,7 +2648,7 @@
 Номер телефона: 89648751367</td>
                     </tr>
                 
-                    <tr>
+                    <tr data-responsible="Князев">
                         <td><a href="javascript:void(0);" onclick="activatePlacemark('Клируотер')">Клируотер</a></td>
                         <td>SMT-в00004758628</td>
                         <td>Средняя</td>
@@ -2549,7 +2662,7 @@
 Предоставить обратную связь, задавать вопросы: Глизнуца Александр Николаевич gliznuca_an@magnit.ru; Никитин Юрий Валентинович nikitin@magnit.ru; Корвель Андрей Андреевич korvel_aa@magnit.ru</td>
                     </tr>
                 
-                    <tr>
+                    <tr data-responsible="Фадеев">
                         <td><a href="javascript:void(0);" onclick="activatePlacemark('Козиевка')">Козиевка</a></td>
                         <td>SMT-в00004992751</td>
                         <td>Средняя</td>
@@ -2572,7 +2685,7 @@
 Номер телефона: 89869437932</td>
                     </tr>
                 
-                    <tr>
+                    <tr data-responsible="Фадеев">
                         <td><a href="javascript:void(0);" onclick="activatePlacemark('Кондиционер')">Кондиционер</a></td>
                         <td>SMT-в00004996253</td>
                         <td>Низкая</td>
@@ -2593,7 +2706,7 @@
 Номер телефона: 79374125431</td>
                     </tr>
                 
-                    <tr>
+                    <tr data-responsible="Аверьянов">
                         <td><a href="javascript:void(0);" onclick="activatePlacemark('Копировщик')">Копировщик</a></td>
                         <td>SMT-в00004981338</td>
                         <td>Низкая</td>
@@ -2614,7 +2727,7 @@
 Номер телефона: 89656397334</td>
                     </tr>
                 
-                    <tr>
+                    <tr data-responsible="Аверьянов">
                         <td><a href="javascript:void(0);" onclick="activatePlacemark('Копировщик')">Копировщик</a></td>
                         <td>SMT-в00004758643</td>
                         <td>Средняя</td>
@@ -2628,7 +2741,7 @@
 Предоставить обратную связь, задавать вопросы: Глизнуца Александр Николаевич gliznuca_an@magnit.ru; Никитин Юрий Валентинович nikitin@magnit.ru; Корвель Андрей Андреевич korvel_aa@magnit.ru</td>
                     </tr>
                 
-                    <tr>
+                    <tr data-responsible="Аверьянов">
                         <td><a href="javascript:void(0);" onclick="activatePlacemark('Красноозерное')">Красноозерное</a></td>
                         <td>SMT-в00004981679</td>
                         <td>Низкая</td>
@@ -2649,7 +2762,7 @@
 Номер телефона: 89023489927</td>
                     </tr>
                 
-                    <tr>
+                    <tr data-responsible="Аверьянов">
                         <td><a href="javascript:void(0);" onclick="activatePlacemark('Красноозерное')">Красноозерное</a></td>
                         <td>SMT-в00004981778</td>
                         <td>Низкая</td>
@@ -2670,7 +2783,7 @@
 Номер телефона: 89023489927</td>
                     </tr>
                 
-                    <tr>
+                    <tr data-responsible="Аверьянов">
                         <td><a href="javascript:void(0);" onclick="activatePlacemark('Кровелец')">Кровелец</a></td>
                         <td>SMT-в00004843553</td>
                         <td>Низкая</td>
@@ -2682,7 +2795,7 @@
                         <td class="description">Нужно заменить 2 стеклопакета в тз</td>
                     </tr>
                 
-                    <tr>
+                    <tr data-responsible="Аверьянов">
                         <td><a href="javascript:void(0);" onclick="activatePlacemark('Кровелец')">Кровелец</a></td>
                         <td>SMT-в00004758649</td>
                         <td>Средняя</td>
@@ -2696,7 +2809,7 @@
 Предоставить обратную связь, задавать вопросы: Глизнуца Александр Николаевич gliznuca_an@magnit.ru; Никитин Юрий Валентинович nikitin@magnit.ru; Корвель Андрей Андреевич korvel_aa@magnit.ru</td>
                     </tr>
                 
-                    <tr>
+                    <tr data-responsible="Фадеев">
                         <td><a href="javascript:void(0);" onclick="activatePlacemark('Куассоло')">Куассоло</a></td>
                         <td>SMT-в00004987653</td>
                         <td>Средняя</td>
@@ -2717,7 +2830,7 @@
 Номер телефона: 9631104656</td>
                     </tr>
                 
-                    <tr>
+                    <tr data-responsible="Фадеев">
                         <td><a href="javascript:void(0);" onclick="activatePlacemark('Куассоло')">Куассоло</a></td>
                         <td>SMT-в00004995151</td>
                         <td>Низкая</td>
@@ -2740,7 +2853,7 @@
 Номер телефона: 89270991490</td>
                     </tr>
                 
-                    <tr>
+                    <tr data-responsible="Кисловский">
                         <td><a href="javascript:void(0);" onclick="activatePlacemark('Кувака')">Кувака</a></td>
                         <td>SMT-в00004758659</td>
                         <td>Средняя</td>
@@ -2754,7 +2867,7 @@
 Предоставить обратную связь, задавать вопросы: Глизнуца Александр Николаевич gliznuca_an@magnit.ru; Никитин Юрий Валентинович nikitin@magnit.ru; Корвель Андрей Андреевич korvel_aa@magnit.ru</td>
                     </tr>
                 
-                    <tr>
+                    <tr data-responsible="Демин">
                         <td><a href="javascript:void(0);" onclick="activatePlacemark('Кундудо')">Кундудо</a></td>
                         <td>SMT-в00004944987</td>
                         <td>Низкая</td>
@@ -2775,7 +2888,7 @@
 Номер телефона: 89063979726</td>
                     </tr>
                 
-                    <tr>
+                    <tr data-responsible="Демин">
                         <td><a href="javascript:void(0);" onclick="activatePlacemark('Кундудо')">Кундудо</a></td>
                         <td>SMT-в00004758674</td>
                         <td>Средняя</td>
@@ -2789,7 +2902,7 @@
 Предоставить обратную связь, задавать вопросы: Глизнуца Александр Николаевич gliznuca_an@magnit.ru; Никитин Юрий Валентинович nikitin@magnit.ru; Корвель Андрей Андреевич korvel_aa@magnit.ru</td>
                     </tr>
                 
-                    <tr>
+                    <tr data-responsible="Аверьянов">
                         <td><a href="javascript:void(0);" onclick="activatePlacemark('Ламбада')">Ламбада</a></td>
                         <td>SMT-в00004927253</td>
                         <td>Высокая</td>
@@ -2802,7 +2915,7 @@
 Один объект = 1 Акт ТО.</td>
                     </tr>
                 
-                    <tr>
+                    <tr data-responsible="Аверьянов">
                         <td><a href="javascript:void(0);" onclick="activatePlacemark('Ламбада')">Ламбада</a></td>
                         <td>SMT-в00004758683</td>
                         <td>Средняя</td>
@@ -2816,7 +2929,7 @@
 Предоставить обратную связь, задавать вопросы: Глизнуца Александр Николаевич gliznuca_an@magnit.ru; Никитин Юрий Валентинович nikitin@magnit.ru; Корвель Андрей Андреевич korvel_aa@magnit.ru</td>
                     </tr>
                 
-                    <tr>
+                    <tr data-responsible="Аверьянов">
                         <td><a href="javascript:void(0);" onclick="activatePlacemark('Ламбада')">Ламбада</a></td>
                         <td>SMT-в00004652800</td>
                         <td>Высокая</td>
@@ -2829,7 +2942,7 @@
 Один объект = 1 Акт ТО.</td>
                     </tr>
                 
-                    <tr>
+                    <tr data-responsible="Демин">
                         <td><a href="javascript:void(0);" onclick="activatePlacemark('Леро')">Леро</a></td>
                         <td>SMT-в00004909493</td>
                         <td>Средняя</td>
@@ -2852,7 +2965,7 @@
 Номер телефона: 89374315424</td>
                     </tr>
                 
-                    <tr>
+                    <tr data-responsible="Демин">
                         <td><a href="javascript:void(0);" onclick="activatePlacemark('Леро')">Леро</a></td>
                         <td>SMT-в00004909494</td>
                         <td>Средняя</td>
@@ -2876,7 +2989,7 @@
 Номер телефона: 89374315424</td>
                     </tr>
                 
-                    <tr>
+                    <tr data-responsible="Демин">
                         <td><a href="javascript:void(0);" onclick="activatePlacemark('Леро')">Леро</a></td>
                         <td>SMT-в00004826666</td>
                         <td>Низкая</td>
@@ -2899,7 +3012,7 @@
 Номер телефона: 89374315424</td>
                     </tr>
                 
-                    <tr>
+                    <tr data-responsible="Демин">
                         <td><a href="javascript:void(0);" onclick="activatePlacemark('Леро')">Леро</a></td>
                         <td>SMT-в00004909382</td>
                         <td>Средняя</td>
@@ -2922,7 +3035,7 @@
 Номер телефона: 89374315424</td>
                     </tr>
                 
-                    <tr>
+                    <tr data-responsible="Демин">
                         <td><a href="javascript:void(0);" onclick="activatePlacemark('Леро')">Леро</a></td>
                         <td>SMT-в00004976903</td>
                         <td>Низкая</td>
@@ -2943,7 +3056,7 @@
 Номер телефона: 89374315424</td>
                     </tr>
                 
-                    <tr>
+                    <tr data-responsible="Аверьянов">
                         <td><a href="javascript:void(0);" onclick="activatePlacemark('Лобановская')">Лобановская</a></td>
                         <td>SMT-в00004758702</td>
                         <td>Средняя</td>
@@ -2957,7 +3070,7 @@
 Предоставить обратную связь, задавать вопросы: Глизнуца Александр Николаевич gliznuca_an@magnit.ru; Никитин Юрий Валентинович nikitin@magnit.ru; Корвель Андрей Андреевич korvel_aa@magnit.ru</td>
                     </tr>
                 
-                    <tr>
+                    <tr data-responsible="Аверьянов">
                         <td><a href="javascript:void(0);" onclick="activatePlacemark('Лобановская')">Лобановская</a></td>
                         <td>SMT-в00004653673</td>
                         <td>Высокая</td>
@@ -2970,7 +3083,7 @@
 Один объект = 1 Акт ТО.</td>
                     </tr>
                 
-                    <tr>
+                    <tr data-responsible="Демин">
                         <td><a href="javascript:void(0);" onclick="activatePlacemark('Марлин')">Марлин</a></td>
                         <td>SMT-в00004927290</td>
                         <td>Высокая</td>
@@ -2983,7 +3096,7 @@
 Один объект = 1 Акт ТО.</td>
                     </tr>
                 
-                    <tr>
+                    <tr data-responsible="Демин">
                         <td><a href="javascript:void(0);" onclick="activatePlacemark('Медисовка')">Медисовка</a></td>
                         <td>SMT-в00004993661</td>
                         <td>Низкая</td>
@@ -3006,7 +3119,7 @@
 Номер телефона: 89379145208</td>
                     </tr>
                 
-                    <tr>
+                    <tr data-responsible="Пивкин_Кошкин">
                         <td><a href="javascript:void(0);" onclick="activatePlacemark('Молсон')">Молсон</a></td>
                         <td>SMT-в00004836478</td>
                         <td>Средняя</td>
@@ -3027,7 +3140,7 @@
 Номер телефона: 89648721105</td>
                     </tr>
                 
-                    <tr>
+                    <tr data-responsible="Демин">
                         <td><a href="javascript:void(0);" onclick="activatePlacemark('Мурашкино')">Мурашкино</a></td>
                         <td>SMT-в00004758733</td>
                         <td>Средняя</td>
@@ -3041,7 +3154,7 @@
 Предоставить обратную связь, задавать вопросы: Глизнуца Александр Николаевич gliznuca_an@magnit.ru; Никитин Юрий Валентинович nikitin@magnit.ru; Корвель Андрей Андреевич korvel_aa@magnit.ru</td>
                     </tr>
                 
-                    <tr>
+                    <tr data-responsible="Демин">
                         <td><a href="javascript:void(0);" onclick="activatePlacemark('Найденыш')">Найденыш</a></td>
                         <td>SMT-в00004801762</td>
                         <td>Низкая</td>
@@ -3062,7 +3175,7 @@
 Номер телефона: 9273730319</td>
                     </tr>
                 
-                    <tr>
+                    <tr data-responsible="Кисловский">
                         <td><a href="javascript:void(0);" onclick="activatePlacemark('Невесомость')">Невесомость</a></td>
                         <td>SMT-в00004981563</td>
                         <td>Низкая</td>
@@ -3086,7 +3199,7 @@
 Номер телефона: 89648707400</td>
                     </tr>
                 
-                    <tr>
+                    <tr data-responsible="Кисловский">
                         <td><a href="javascript:void(0);" onclick="activatePlacemark('Невесомость')">Невесомость</a></td>
                         <td>SMT-в00004758739</td>
                         <td>Средняя</td>
@@ -3100,7 +3213,7 @@
 Предоставить обратную связь, задавать вопросы: Глизнуца Александр Николаевич gliznuca_an@magnit.ru; Никитин Юрий Валентинович nikitin@magnit.ru; Корвель Андрей Андреевич korvel_aa@magnit.ru</td>
                     </tr>
                 
-                    <tr>
+                    <tr data-responsible="Пивкин_Кошкин">
                         <td><a href="javascript:void(0);" onclick="activatePlacemark('Нижний_Ломов')">Нижний Ломов</a></td>
                         <td>SMT-в00004944157</td>
                         <td>Низкая</td>
@@ -3123,7 +3236,7 @@
 Номер телефона: 89085432158</td>
                     </tr>
                 
-                    <tr>
+                    <tr data-responsible="Аверьянов">
                         <td><a href="javascript:void(0);" onclick="activatePlacemark('Облагание')">Облагание</a></td>
                         <td>SMT-в00004968414</td>
                         <td>Низкая</td>
@@ -3146,7 +3259,7 @@
 Номер телефона: 89272868569</td>
                     </tr>
                 
-                    <tr>
+                    <tr data-responsible="Аверьянов">
                         <td><a href="javascript:void(0);" onclick="activatePlacemark('Облуживание')">Облуживание</a></td>
                         <td>SMT-в00004673783</td>
                         <td>Средняя</td>
@@ -3169,7 +3282,7 @@
 Номер телефона: 89033242933</td>
                     </tr>
                 
-                    <tr>
+                    <tr data-responsible="Аверьянов">
                         <td><a href="javascript:void(0);" onclick="activatePlacemark('Овинцы')">Овинцы</a></td>
                         <td>SMT-в00004753044</td>
                         <td>Низкая</td>
@@ -3181,7 +3294,7 @@
                         <td class="description">Частичный демонтаж площадки разгрузки</td>
                     </tr>
                 
-                    <tr>
+                    <tr data-responsible="Демин">
                         <td><a href="javascript:void(0);" onclick="activatePlacemark('Оптант')">Оптант</a></td>
                         <td>SMT-в00004880853</td>
                         <td>Низкая</td>
@@ -3202,7 +3315,7 @@
 Номер телефона: 89374486177</td>
                     </tr>
                 
-                    <tr>
+                    <tr data-responsible="Фадеев">
                         <td><a href="javascript:void(0);" onclick="activatePlacemark('Осановец')">Осановец</a></td>
                         <td>SMT-в00004979631</td>
                         <td>Средняя</td>
@@ -3223,7 +3336,7 @@
 Номер телефона: 89521982642</td>
                     </tr>
                 
-                    <tr>
+                    <tr data-responsible="Кисловский">
                         <td><a href="javascript:void(0);" onclick="activatePlacemark('Отвертка')">Отвертка</a></td>
                         <td>SMT-в00004758761</td>
                         <td>Средняя</td>
@@ -3237,7 +3350,7 @@
 Предоставить обратную связь, задавать вопросы: Глизнуца Александр Николаевич gliznuca_an@magnit.ru; Никитин Юрий Валентинович nikitin@magnit.ru; Корвель Андрей Андреевич korvel_aa@magnit.ru</td>
                     </tr>
                 
-                    <tr>
+                    <tr data-responsible="Демин">
                         <td><a href="javascript:void(0);" onclick="activatePlacemark('Пазл')">Пазл</a></td>
                         <td>SMT-в00004758766</td>
                         <td>Средняя</td>
@@ -3251,7 +3364,7 @@
 Предоставить обратную связь, задавать вопросы: Глизнуца Александр Николаевич gliznuca_an@magnit.ru; Никитин Юрий Валентинович nikitin@magnit.ru; Корвель Андрей Андреевич korvel_aa@magnit.ru</td>
                     </tr>
                 
-                    <tr>
+                    <tr data-responsible="Демин">
                         <td><a href="javascript:void(0);" onclick="activatePlacemark('Пазл')">Пазл</a></td>
                         <td>SMT-в00004654473</td>
                         <td>Высокая</td>
@@ -3264,7 +3377,7 @@
 Один объект = 1 Акт ТО.</td>
                     </tr>
                 
-                    <tr>
+                    <tr data-responsible="Демин">
                         <td><a href="javascript:void(0);" onclick="activatePlacemark('Панкратовский')">Панкратовский</a></td>
                         <td>SMT-в00004949605</td>
                         <td>Низкая</td>
@@ -3287,7 +3400,7 @@
 Номер телефона: 927-365-69-30</td>
                     </tr>
                 
-                    <tr>
+                    <tr data-responsible="Пивкин_Кошкин">
                         <td><a href="javascript:void(0);" onclick="activatePlacemark('Пахлава')">Пахлава</a></td>
                         <td>SMT-в00004623694</td>
                         <td>Низкая</td>
@@ -3310,7 +3423,7 @@
 Номер телефона: 89630997282</td>
                     </tr>
                 
-                    <tr>
+                    <tr data-responsible="Пивкин_Кошкин">
                         <td><a href="javascript:void(0);" onclick="activatePlacemark('Пахлава')">Пахлава</a></td>
                         <td>SMT-в00004879909</td>
                         <td>Низкая</td>
@@ -3331,7 +3444,7 @@
 Номер телефона: 89085292059</td>
                     </tr>
                 
-                    <tr>
+                    <tr data-responsible="Пивкин_Кошкин">
                         <td><a href="javascript:void(0);" onclick="activatePlacemark('Пахлава')">Пахлава</a></td>
                         <td>SMT-в00004985764</td>
                         <td>Средняя</td>
@@ -3352,7 +3465,7 @@
 Номер телефона: 89968022640</td>
                     </tr>
                 
-                    <tr>
+                    <tr data-responsible="Пивкин_Кошкин">
                         <td><a href="javascript:void(0);" onclick="activatePlacemark('Пахлава')">Пахлава</a></td>
                         <td>SMT-в00004758772</td>
                         <td>Средняя</td>
@@ -3366,7 +3479,7 @@
 Предоставить обратную связь, задавать вопросы: Глизнуца Александр Николаевич gliznuca_an@magnit.ru; Никитин Юрий Валентинович nikitin@magnit.ru; Корвель Андрей Андреевич korvel_aa@magnit.ru</td>
                     </tr>
                 
-                    <tr>
+                    <tr data-responsible="Пивкин_Кошкин">
                         <td><a href="javascript:void(0);" onclick="activatePlacemark('Пачелмский')">Пачелмский</a></td>
                         <td>SMT-в00004996007</td>
                         <td>Низкая</td>
@@ -3389,7 +3502,7 @@
 Номер телефона: 89053665125</td>
                     </tr>
                 
-                    <tr>
+                    <tr data-responsible="Фадеев">
                         <td><a href="javascript:void(0);" onclick="activatePlacemark('Переходовец')">Переходовец</a></td>
                         <td>SMT-в00004986565</td>
                         <td>Низкая</td>
@@ -3410,7 +3523,7 @@
 Номер телефона: 89530271685</td>
                     </tr>
                 
-                    <tr>
+                    <tr data-responsible="Фадеев">
                         <td><a href="javascript:void(0);" onclick="activatePlacemark('Переходовец')">Переходовец</a></td>
                         <td>SMT-в00004989890</td>
                         <td>Средняя</td>
@@ -3431,7 +3544,7 @@
 Номер телефона: 89530271685</td>
                     </tr>
                 
-                    <tr>
+                    <tr data-responsible="Кисловский">
                         <td><a href="javascript:void(0);" onclick="activatePlacemark('Пилинг')">Пилинг</a></td>
                         <td>SMT-в00004900235</td>
                         <td>Средняя</td>
@@ -3454,7 +3567,7 @@
 Номер телефона: 9603177788</td>
                     </tr>
                 
-                    <tr>
+                    <tr data-responsible="Фадеев">
                         <td><a href="javascript:void(0);" onclick="activatePlacemark('Пластиночник')">Пластиночник</a></td>
                         <td>SMT-в00004927456</td>
                         <td>Высокая</td>
@@ -3467,7 +3580,7 @@
 Один объект = 1 Акт ТО.</td>
                     </tr>
                 
-                    <tr>
+                    <tr data-responsible="Фадеев">
                         <td><a href="javascript:void(0);" onclick="activatePlacemark('Пластиночник')">Пластиночник</a></td>
                         <td>SMT-в00004653011</td>
                         <td>Высокая</td>
@@ -3480,7 +3593,7 @@
 Один объект = 1 Акт ТО.</td>
                     </tr>
                 
-                    <tr>
+                    <tr data-responsible="Аверьянов">
                         <td><a href="javascript:void(0);" onclick="activatePlacemark('Подотчетность')">Подотчетность</a></td>
                         <td>SMT-в00004992293</td>
                         <td>Низкая</td>
@@ -3503,7 +3616,7 @@
 Номер телефона: 8 965 638 96 27</td>
                     </tr>
                 
-                    <tr>
+                    <tr data-responsible="Аверьянов">
                         <td><a href="javascript:void(0);" onclick="activatePlacemark('Подотчетность')">Подотчетность</a></td>
                         <td>SMT-в00004992317</td>
                         <td>Низкая</td>
@@ -3524,7 +3637,7 @@
 Номер телефона: 8 965 638 96 27</td>
                     </tr>
                 
-                    <tr>
+                    <tr data-responsible="Аверьянов">
                         <td><a href="javascript:void(0);" onclick="activatePlacemark('Подотчетность')">Подотчетность</a></td>
                         <td>SMT-в00004992770</td>
                         <td>Низкая</td>
@@ -3547,7 +3660,7 @@
 Номер телефона: 8 965 638 96 27</td>
                     </tr>
                 
-                    <tr>
+                    <tr data-responsible="Аверьянов">
                         <td><a href="javascript:void(0);" onclick="activatePlacemark('Подотчетность')">Подотчетность</a></td>
                         <td>SMT-в00004856495</td>
                         <td>Низкая</td>
@@ -3560,7 +3673,7 @@
 в результате чего вышли из строя основные элементы - плата управления и модуль питания</td>
                     </tr>
                 
-                    <tr>
+                    <tr data-responsible="Демин">
                         <td><a href="javascript:void(0);" onclick="activatePlacemark('Помело')">Помело</a></td>
                         <td>SMT-в00004986101</td>
                         <td>Высокая</td>
@@ -3581,7 +3694,7 @@
 Номер телефона: 89603234276</td>
                     </tr>
                 
-                    <tr>
+                    <tr data-responsible="Аверьянов">
                         <td><a href="javascript:void(0);" onclick="activatePlacemark('Помолвленный')">Помолвленный</a></td>
                         <td>SMT-в00004960622</td>
                         <td>Низкая</td>
@@ -3604,7 +3717,7 @@
 Номер телефона: 8(996)810-66-18</td>
                     </tr>
                 
-                    <tr>
+                    <tr data-responsible="Аверьянов">
                         <td><a href="javascript:void(0);" onclick="activatePlacemark('Преследователь')">Преследователь</a></td>
                         <td>SMT-в00004994048</td>
                         <td>Низкая</td>
@@ -3627,7 +3740,7 @@
 Номер телефона: 89374301545</td>
                     </tr>
                 
-                    <tr>
+                    <tr data-responsible="Аверьянов">
                         <td><a href="javascript:void(0);" onclick="activatePlacemark('Преследователь')">Преследователь</a></td>
                         <td>SMT-в00004994302</td>
                         <td>Низкая</td>
@@ -3650,7 +3763,7 @@
 Номер телефона: 89374301545</td>
                     </tr>
                 
-                    <tr>
+                    <tr data-responsible="Кисловский">
                         <td><a href="javascript:void(0);" onclick="activatePlacemark('Прокат')">Прокат</a></td>
                         <td>SMT-в00004927505</td>
                         <td>Высокая</td>
@@ -3663,7 +3776,7 @@
 Один объект = 1 Акт ТО.</td>
                     </tr>
                 
-                    <tr>
+                    <tr data-responsible="Кисловский">
                         <td><a href="javascript:void(0);" onclick="activatePlacemark('Прокат')">Прокат</a></td>
                         <td>SMT-в00004653072</td>
                         <td>Высокая</td>
@@ -3676,7 +3789,7 @@
 Один объект = 1 Акт ТО.</td>
                     </tr>
                 
-                    <tr>
+                    <tr data-responsible="Демин">
                         <td><a href="javascript:void(0);" onclick="activatePlacemark('Пунктуация')">Пунктуация</a></td>
                         <td>SMT-в00004758800</td>
                         <td>Средняя</td>
@@ -3690,7 +3803,7 @@
 Предоставить обратную связь, задавать вопросы: Глизнуца Александр Николаевич gliznuca_an@magnit.ru; Никитин Юрий Валентинович nikitin@magnit.ru; Корвель Андрей Андреевич korvel_aa@magnit.ru</td>
                     </tr>
                 
-                    <tr>
+                    <tr data-responsible="Демин">
                         <td><a href="javascript:void(0);" onclick="activatePlacemark('Распознавание')">Распознавание</a></td>
                         <td>SMT-в00004995035</td>
                         <td>Низкая</td>
@@ -3711,7 +3824,7 @@
 Номер телефона: 89875060133</td>
                     </tr>
                 
-                    <tr>
+                    <tr data-responsible="Демин">
                         <td><a href="javascript:void(0);" onclick="activatePlacemark('Распоясывание')">Распоясывание</a></td>
                         <td>SMT-в00004938215</td>
                         <td>Низкая</td>
@@ -3732,7 +3845,7 @@
 Номер телефона: 89273841824</td>
                     </tr>
                 
-                    <tr>
+                    <tr data-responsible="Аверьянов">
                         <td><a href="javascript:void(0);" onclick="activatePlacemark('Римесса')">Римесса</a></td>
                         <td>SMT-в00004979514</td>
                         <td>Средняя</td>
@@ -3755,7 +3868,7 @@
 Номер телефона: 89093164325</td>
                     </tr>
                 
-                    <tr>
+                    <tr data-responsible="Аверьянов">
                         <td><a href="javascript:void(0);" onclick="activatePlacemark('Римесса')">Римесса</a></td>
                         <td>SMT-в00004941553</td>
                         <td>Низкая</td>
@@ -3778,7 +3891,7 @@
 Номер телефона: 89656317047</td>
                     </tr>
                 
-                    <tr>
+                    <tr data-responsible="Аверьянов">
                         <td><a href="javascript:void(0);" onclick="activatePlacemark('Римесса')">Римесса</a></td>
                         <td>SMT-в00004945089</td>
                         <td>Низкая</td>
@@ -3801,7 +3914,7 @@
 Номер телефона: 89656317047</td>
                     </tr>
                 
-                    <tr>
+                    <tr data-responsible="Аверьянов">
                         <td><a href="javascript:void(0);" onclick="activatePlacemark('Садко')">Садко</a></td>
                         <td>SMT-в00004857687</td>
                         <td>Низкая</td>
@@ -3822,7 +3935,7 @@
 Номер телефона: тмм</td>
                     </tr>
                 
-                    <tr>
+                    <tr data-responsible="Аверьянов">
                         <td><a href="javascript:void(0);" onclick="activatePlacemark('Садко')">Садко</a></td>
                         <td>SMT-в00004871452</td>
                         <td>Низкая</td>
@@ -3845,7 +3958,7 @@
 Номер телефона: 89648739407</td>
                     </tr>
                 
-                    <tr>
+                    <tr data-responsible="Аверьянов">
                         <td><a href="javascript:void(0);" onclick="activatePlacemark('Садко')">Садко</a></td>
                         <td>SMT-в00004985342</td>
                         <td>Низкая</td>
@@ -3868,7 +3981,7 @@
 Номер телефона: 89648739407</td>
                     </tr>
                 
-                    <tr>
+                    <tr data-responsible="Аверьянов">
                         <td><a href="javascript:void(0);" onclick="activatePlacemark('Садко')">Садко</a></td>
                         <td>SMT-в00004758823</td>
                         <td>Средняя</td>
@@ -3882,7 +3995,7 @@
 Предоставить обратную связь, задавать вопросы: Глизнуца Александр Николаевич gliznuca_an@magnit.ru; Никитин Юрий Валентинович nikitin@magnit.ru; Корвель Андрей Андреевич korvel_aa@magnit.ru</td>
                     </tr>
                 
-                    <tr>
+                    <tr data-responsible="Демин">
                         <td><a href="javascript:void(0);" onclick="activatePlacemark('Сальса')">Сальса</a></td>
                         <td>SMT-в00004758826</td>
                         <td>Средняя</td>
@@ -3896,7 +4009,7 @@
 Предоставить обратную связь, задавать вопросы: Глизнуца Александр Николаевич gliznuca_an@magnit.ru; Никитин Юрий Валентинович nikitin@magnit.ru; Корвель Андрей Андреевич korvel_aa@magnit.ru</td>
                     </tr>
                 
-                    <tr>
+                    <tr data-responsible="Аверьянов">
                         <td><a href="javascript:void(0);" onclick="activatePlacemark('Серебряный')">Серебряный</a></td>
                         <td>SMT-в00004814605</td>
                         <td>Низкая</td>
@@ -3919,7 +4032,7 @@
 Номер телефона: 89674480497</td>
                     </tr>
                 
-                    <tr>
+                    <tr data-responsible="Кисловский">
                         <td><a href="javascript:void(0);" onclick="activatePlacemark('Скорописание')">Скорописание</a></td>
                         <td>SMT-в00004992976</td>
                         <td>Низкая</td>
@@ -3940,7 +4053,7 @@
 Номер телефона: 89004698434</td>
                     </tr>
                 
-                    <tr>
+                    <tr data-responsible="Аверьянов">
                         <td><a href="javascript:void(0);" onclick="activatePlacemark('Тайими')">Тайими</a></td>
                         <td>SMT-в00004909138</td>
                         <td>Средняя</td>
@@ -3963,7 +4076,7 @@
 Номер телефона: 89674400524</td>
                     </tr>
                 
-                    <tr>
+                    <tr data-responsible="Фадеев">
                         <td><a href="javascript:void(0);" onclick="activatePlacemark('Теперское')">Теперское</a></td>
                         <td>SMT-в00004940675</td>
                         <td>Средняя</td>
@@ -3986,7 +4099,7 @@
 Номер телефона: 89875140818</td>
                     </tr>
                 
-                    <tr>
+                    <tr data-responsible="Фадеев">
                         <td><a href="javascript:void(0);" onclick="activatePlacemark('Теперское')">Теперское</a></td>
                         <td>SMT-в00004927656</td>
                         <td>Высокая</td>
@@ -3999,7 +4112,7 @@
 Один объект = 1 Акт ТО.</td>
                     </tr>
                 
-                    <tr>
+                    <tr data-responsible="Фадеев">
                         <td><a href="javascript:void(0);" onclick="activatePlacemark('Теперское')">Теперское</a></td>
                         <td>SMT-в00004653338</td>
                         <td>Высокая</td>
@@ -4012,7 +4125,7 @@
 Один объект = 1 Акт ТО.</td>
                     </tr>
                 
-                    <tr>
+                    <tr data-responsible="Кисловский">
                         <td><a href="javascript:void(0);" onclick="activatePlacemark('Теренкуль')">Теренкуль</a></td>
                         <td>SMT-в00004963844</td>
                         <td>Низкая</td>
@@ -4035,7 +4148,7 @@
 Номер телефона: 89521926349</td>
                     </tr>
                 
-                    <tr>
+                    <tr data-responsible="Кисловский">
                         <td><a href="javascript:void(0);" onclick="activatePlacemark('Теренкуль')">Теренкуль</a></td>
                         <td>SMT-в00004991733</td>
                         <td>Низкая</td>
@@ -4056,7 +4169,7 @@
 Номер телефона: 89521926349</td>
                     </tr>
                 
-                    <tr>
+                    <tr data-responsible="Кисловский">
                         <td><a href="javascript:void(0);" onclick="activatePlacemark('Теренкуль')">Теренкуль</a></td>
                         <td>SMT-в00004991812</td>
                         <td>Низкая</td>
@@ -4079,7 +4192,7 @@
 Номер телефона: 89521926349</td>
                     </tr>
                 
-                    <tr>
+                    <tr data-responsible="Демин">
                         <td><a href="javascript:void(0);" onclick="activatePlacemark('Труфанково')">Труфанково</a></td>
                         <td>SMT-в00004933971</td>
                         <td>Средняя</td>
@@ -4102,7 +4215,7 @@
 Номер телефона: 8-937-406-96-71</td>
                     </tr>
                 
-                    <tr>
+                    <tr data-responsible="Аверьянов">
                         <td><a href="javascript:void(0);" onclick="activatePlacemark('Турмер')">Турмер</a></td>
                         <td>SMT-в00004813939</td>
                         <td>Низкая</td>
@@ -4123,7 +4236,7 @@
 Номер телефона: 89867321007</td>
                     </tr>
                 
-                    <tr>
+                    <tr data-responsible="Аверьянов">
                         <td><a href="javascript:void(0);" onclick="activatePlacemark('Турмер')">Турмер</a></td>
                         <td>SMT-в00004864646</td>
                         <td>Низкая</td>
@@ -4146,7 +4259,7 @@
 Номер телефона: 89867321007</td>
                     </tr>
                 
-                    <tr>
+                    <tr data-responsible="Аверьянов">
                         <td><a href="javascript:void(0);" onclick="activatePlacemark('Турмер')">Турмер</a></td>
                         <td>SMT-в00004865149</td>
                         <td>Низкая</td>
@@ -4176,7 +4289,7 @@
 По всем возникающим вопросам в части Замены/Поверки, Вы можете обращаться по номеру 8-800-200-90-02 (доб.6, затем 6) или группу в Telegram</td>
                     </tr>
                 
-                    <tr>
+                    <tr data-responsible="Кисловский">
                         <td><a href="javascript:void(0);" onclick="activatePlacemark('Хаскель')">Хаскель</a></td>
                         <td>SMT-в00004996528</td>
                         <td>Низкая</td>
@@ -4195,7 +4308,7 @@
 Причина выбора данного ШПС: В подходящей форме запроса нет моей проблемы </td>
                     </tr>
                 
-                    <tr>
+                    <tr data-responsible="Фадеев">
                         <td><a href="javascript:void(0);" onclick="activatePlacemark('Хотынец')">Хотынец</a></td>
                         <td>SMT-в00004758880</td>
                         <td>Средняя</td>
@@ -4209,7 +4322,7 @@
 Предоставить обратную связь, задавать вопросы: Глизнуца Александр Николаевич gliznuca_an@magnit.ru; Никитин Юрий Валентинович nikitin@magnit.ru; Корвель Андрей Андреевич korvel_aa@magnit.ru</td>
                     </tr>
                 
-                    <tr>
+                    <tr data-responsible="Фадеев">
                         <td><a href="javascript:void(0);" onclick="activatePlacemark('Целительность')">Целительность</a></td>
                         <td>SMT-в00004821450</td>
                         <td>Низкая</td>
@@ -4232,7 +4345,7 @@
 Номер телефона: 89272880212</td>
                     </tr>
                 
-                    <tr>
+                    <tr data-responsible="Фадеев">
                         <td><a href="javascript:void(0);" onclick="activatePlacemark('Целительность')">Целительность</a></td>
                         <td>SMT-в00004943837</td>
                         <td>Низкая</td>
@@ -4253,7 +4366,7 @@
 Номер телефона: 89272880212</td>
                     </tr>
                 
-                    <tr>
+                    <tr data-responsible="Фадеев">
                         <td><a href="javascript:void(0);" onclick="activatePlacemark('Чиназ')">Чиназ</a></td>
                         <td>SMT-в00004995411</td>
                         <td>Низкая</td>
@@ -4274,7 +4387,7 @@
 Номер телефона: 89631033356</td>
                     </tr>
                 
-                    <tr>
+                    <tr data-responsible="Пивкин_Кошкин">
                         <td><a href="javascript:void(0);" onclick="activatePlacemark('Чипполино')">Чипполино</a></td>
                         <td>SMT-в00004758891</td>
                         <td>Средняя</td>
@@ -4288,7 +4401,7 @@
 Предоставить обратную связь, задавать вопросы: Глизнуца Александр Николаевич gliznuca_an@magnit.ru; Никитин Юрий Валентинович nikitin@magnit.ru; Корвель Андрей Андреевич korvel_aa@magnit.ru</td>
                     </tr>
                 
-                    <tr>
+                    <tr data-responsible="Фадеев">
                         <td><a href="javascript:void(0);" onclick="activatePlacemark('Чирката')">Чирката</a></td>
                         <td>SMT-в00004993201</td>
                         <td>Низкая</td>
@@ -4309,7 +4422,7 @@
 Номер телефона: 89648695630</td>
                     </tr>
                 
-                    <tr>
+                    <tr data-responsible="Аверьянов">
                         <td><a href="javascript:void(0);" onclick="activatePlacemark('Шмаково')">Шмаково</a></td>
                         <td>SMT-в00004978015</td>
                         <td>Низкая</td>
@@ -4330,7 +4443,7 @@
 Номер телефона: 89875097625</td>
                     </tr>
                 
-                    <tr>
+                    <tr data-responsible="Аверьянов">
                         <td><a href="javascript:void(0);" onclick="activatePlacemark('Шмаково')">Шмаково</a></td>
                         <td>SMT-в00004956375</td>
                         <td>Низкая</td>
@@ -4351,7 +4464,7 @@
 Номер телефона: 9272882888</td>
                     </tr>
                 
-                    <tr>
+                    <tr data-responsible="Фадеев">
                         <td><a href="javascript:void(0);" onclick="activatePlacemark('Шнитке')">Шнитке</a></td>
                         <td>SMT-в00004292604</td>
                         <td>Средняя</td>
@@ -4374,7 +4487,7 @@
 Номер телефона: +79374222132</td>
                     </tr>
                 
-                    <tr>
+                    <tr data-responsible="Фадеев">
                         <td><a href="javascript:void(0);" onclick="activatePlacemark('Шнитке')">Шнитке</a></td>
                         <td>SMT-в00004956587</td>
                         <td>Низкая</td>
@@ -4397,7 +4510,7 @@
 Номер телефона: 89020803108</td>
                     </tr>
                 
-                    <tr>
+                    <tr data-responsible="Фадеев">
                         <td><a href="javascript:void(0);" onclick="activatePlacemark('Шнитке')">Шнитке</a></td>
                         <td>SMT-в00004758902</td>
                         <td>Средняя</td>
@@ -4411,7 +4524,7 @@
 Предоставить обратную связь, задавать вопросы: Глизнуца Александр Николаевич gliznuca_an@magnit.ru; Никитин Юрий Валентинович nikitin@magnit.ru; Корвель Андрей Андреевич korvel_aa@magnit.ru</td>
                     </tr>
                 
-                    <tr>
+                    <tr data-responsible="Кисловский">
                         <td><a href="javascript:void(0);" onclick="activatePlacemark('Экипаж')">Экипаж</a></td>
                         <td>SMT-в00004758906</td>
                         <td>Средняя</td>
@@ -4425,7 +4538,7 @@
 Предоставить обратную связь, задавать вопросы: Глизнуца Александр Николаевич gliznuca_an@magnit.ru; Никитин Юрий Валентинович nikitin@magnit.ru; Корвель Андрей Андреевич korvel_aa@magnit.ru</td>
                     </tr>
                 
-                    <tr>
+                    <tr data-responsible="Пивкин_Кошкин">
                         <td><a href="javascript:void(0);" onclick="activatePlacemark('Ясли')">Ясли</a></td>
                         <td>SMT-в00004817326</td>
                         <td>Низкая</td>
@@ -4448,7 +4561,7 @@
 Номер телефона: 89631001400</td>
                     </tr>
                 
-                    <tr>
+                    <tr data-responsible="Пивкин_Кошкин">
                         <td><a href="javascript:void(0);" onclick="activatePlacemark('Ясли')">Ясли</a></td>
                         <td>SMT-в00004817436</td>
                         <td>Низкая</td>
